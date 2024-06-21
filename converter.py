@@ -1,9 +1,6 @@
 from docx import Document
 import os
 
-folder_path = 'data/'
-qa_dict = {}
-
 def read_questions_answers(filename):
     doc = Document(filename)
     qa_dict = {}
@@ -25,9 +22,14 @@ def read_questions_answers(filename):
 
     return qa_dict
 
-# Iteration über alle Dateien in folder_path
-for file in os.listdir(folder_path):
-    file_path = os.path.join(folder_path, file)
-    if os.path.isfile(file_path):
-        current_file = read_questions_answers(file_path)
-        qa_dict.update(current_file)
+def write_qa_dictionary(folder_path='data/'):
+    qa_dict = {}
+    # Iteration über alle Dateien in folder_path
+    for file in os.listdir(folder_path):
+        file_path = os.path.join(folder_path, file)
+        if os.path.isfile(file_path):
+            current_file = read_questions_answers(file_path)
+            qa_dict.update(current_file)
+    return qa_dict
+
+print(write_qa_dictionary())
