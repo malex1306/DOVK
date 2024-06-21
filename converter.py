@@ -31,5 +31,3 @@ def write_qa_dictionary(folder_path='data/'):
             current_file = read_questions_answers(file_path)
             qa_dict.update(current_file)
     return qa_dict
-
-print(write_qa_dictionary())
