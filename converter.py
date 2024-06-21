@@ -1,5 +1,5 @@
 from docx import Document
-import os
+import os, json
 
 def read_questions_answers(filename):
     doc = Document(filename)
@@ -31,3 +31,8 @@ def write_qa_dictionary(folder_path='data/'):
             current_file = read_questions_answers(file_path)
             qa_dict.update(current_file)
     return qa_dict
+
+def make_json(dict,folder_path=''):
+    file_path = os.path.join(folder_path, 'data.json')
+    with open(file_path, 'w') as outfile:
+        json.dump(dict, outfile, indent=4)
