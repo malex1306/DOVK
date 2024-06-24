@@ -2,16 +2,10 @@ import tkinter as tk
 from tkinter import messagebox
 import random
 from string import ascii_lowercase
+from converter import write_qa_dictionary
 
 # Die richtigen Antworten müssen an erster Stelle in der eckigen Klammer stehen.
-QUESTIONS = {
-    "Um den Kern eines Koaxialkabels befindet sich ein Mantel aus einem nicht leitenden Material. Wie nennt man diese nichtleitende Schicht in der Elektronik?":
-    ["dielektrische Schicht", "Schicht 1", "Schicht 4", "Schicht 5"],
-    "Eine wichtige physikalische Eigenschaft des Kabels ist sein Dämpfungsverhalten. In welcher Einheit wird dieses Verhalten gemessen?":
-    ["Dezibel", "Dose", "Fleisch", "Bass"],
-    "Welches Werkzeug benötigen Sie, um das Kabel für den Eigengebrauch selbst vorzubereiten?":
-    ["Crimp", "Spezieller Kabelschneider", "Mars", "Merkur"]
-}
+QUESTIONS = write_qa_dictionary(folder_path='data/')
 
 class QuizApp:
     def __init__(self, root):
