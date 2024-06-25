@@ -26,7 +26,7 @@ class QuizApp:
         self.start_frame = tk.Frame(self.root)
         self.start_frame.pack(pady=20)
 
-        self.label = tk.Label(self.start_frame, text="Wieviele Fragen möchten Sie beantworten? Es gibt aktuell 50 zu beantworten")
+        self.label = tk.Label(self.start_frame, text=f"Wieviele Fragen möchten Sie beantworten? Es gibt aktuell {len(QUESTIONS)} zu beantworten")
         self.label.pack(pady=5)
 
         self.entry = tk.Entry(self.start_frame)
