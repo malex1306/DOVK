@@ -1,0 +1,242 @@
+{
+    "Welche Schichten des ISO/OSI-Referenzmodels bilden das Transportsystem?": [
+        "Anwendungsschicht (Application Layer)",
+        "Pr\u00e4sentationsschicht (Presentation Layer)",
+        "Sitzungsschicht (Session Layer)"
+    ],
+    "Welche Schichten des ISO/OSI-Referenzmodels bilden das Anwendungssystem?": [
+        "Netzwerkschicht",
+        "Baumschicht",
+        "Sternf\u00f6rmigeschicht"
+    ],
+    "Mit wie vielen weiteren Schichten kann eine Schicht des OSI-Referenzmodells kommunizieren?": [
+        "Mit einer Schicht",
+        "Mit keiner Schicht",
+        "Mit allen Schichten"
+    ],
+    "Die Definition von notwendigen physikalischen Schnittstellen ist die Aufgabe eines OSI-Standards. Dazu geh\u00f6ren etwa die ___________, _________ bei Stecker und Buchsen. Bitte erg\u00e4nzen Sie den fehlenden Begriff?": [
+        "Pinbelegungen",
+        "LWL",
+        "HDMI"
+    ],
+    "Welche Schicht ist in der Netzwerkkarte abgebildet?": [
+        "Anwendungsschicht",
+        "Sitzungsschicht (Session Layer)",
+        "Networklayer"
+    ],
+    "Was ist CRC?": [
+        "CRC steht f\u00fcr \u201cComputer Random Code",
+        "CRC ist ein Verschl\u00fcsselungsalgorithmus",
+        "CRC ist eine Methode zur Datenkompression"
+    ],
+    "Unter welchen Bedingungen ist der Einsatz von kleineren data frames sinnvoller als der von gro\u00dfen data frames?": [
+        "sind effizienter",
+        "sicherer",
+        "besser"
+    ],
+    "Wie nennt man ein einfaches Verfahren zur Fehlerkorrektur auf der OSI-Schicht 2?": [
+        "CRC, sie ist eine Methode zur Datenkompression",
+        "SQL",
+        "Verschl\u00fcsselungsalgorithmus"
+    ],
+    "Wann ist die Flusskontrolle bzw. Flusssteuerung notwendig?": [
+        "f\u00fcr eine Verschl\u00fcsselungsmethode",
+        "verhindert, dass Daten zu langsam \u00fcbertragen werden",
+        "ist nur auf der Anwendungsschicht relevant"
+    ],
+    "Ein Kriterium f\u00fcr die Verbindungsorientierung der Schicht 4 ist  die Erhaltung der Sequenzreihenfolge der versendeten Datenpakete. Welche M\u00f6glichkeit hat das Protokoll dieser Schicht, falls ein Datenpaket durch ein anderes \u00fcberholt wird?": [
+        "TCP verwirft das \u00fcberholte Paket",
+        "TCP sendet das \u00fcberholte Paket an die Anwendungsschicht zur\u00fcck",
+        "TCP verwendet eine zuf\u00e4llige Reihenfolge f\u00fcr die Paket\u00fcbertragung"
+    ],
+    "Wie nennt man die Schicht des OSI-Referenzmodells, die neben dem Auf- und Abbau von Verbindungen die Dialogsteuerung \u00fcbernimmt?": [
+        "Die Sitzungsschicht ist f\u00fcr die physische Verbindung verantwortlich",
+        "Die Sitzungsschicht verschl\u00fcsselt die Daten\u00fcbertragung.",
+        "Die Sitzungsschicht ist nur f\u00fcr die Anwendungsprotokolle relevant."
+    ],
+    "Welchen Vorteil bietet ein Protokoll, das auf mehreren OSI-Ebenen verwendet werden kann?": [
+        "Das Protokoll erm\u00f6glicht dadurch eine schnellere Daten\u00fcbertragung",
+        "Es vereinfacht die Netzwerkkonfiguration",
+        "Das Protokoll erh\u00f6ht die Sicherheit."
+    ],
+    "(R)Aus welchen Unterschichten besteht Sicherungsschicht?": [
+        "TCP & LCP",
+        "OSI & ISO",
+        "LAN & Wlan"
+    ],
+    "Welche Ger\u00e4te arbeiten auf den Schichten 1 und 2?": [
+        "Schicht 1: Prozessor",
+        "Schicht 1: Grafikkarte Schicht 2: Router",
+        "Schicht 1: RAM Schicht 2: peripherie"
+    ],
+    "Welche Ger\u00e4te arbeiten auf der Schicht 1?": [
+        "Mainboard & Protessor",
+        "Prozessor & RAM",
+        "DLINK"
+    ],
+    "Welche Ger\u00e4te arbeiten auf der Schicht 3?": [
+        "TCP",
+        "ARQ",
+        "LLC"
+    ],
+    "(R)Welche Ger\u00e4te arbeiten auf den Schichten 1 bis 7?": [
+        "Satelite",
+        "Funkradio",
+        "Wasserk\u00fchlung"
+    ],
+    "Wie hei\u00dfen die Pakete auf den Schichten 1 bis 7?": [
+        "Gateway",
+        "Medienkonverter",
+        "Layers"
+    ],
+    "Wie hei\u00dfen die Adressen auf den Schichten 2 bis 4 und wie lang sind sie?": [
+        "Mac Adressen:212-Bit",
+        "IPv4: 16-Bit",
+        "IPv6: 92-Bit"
+    ],
+    "Wie hei\u00dft die Verbindung der IP-Adresse mit der Portnummer (z.B. 123.23.25.8:80  IPv4)?": [
+        "IPv4",
+        "Sockel",
+        "PeerToPeer"
+    ],
+    "Was unterscheidet die physikalische Topologie von der logischen Topologie?": [
+        "Der Steckplatz",
+        "Die Sockel",
+        "Die Layer"
+    ],
+    "Nennen Sie die bekannten Topologien?": [
+        "Kreistopologie",
+        "Kreuztopologie",
+        "PeerToPeer"
+    ],
+    "Welche dieser Topologien w\u00fcrden Sie der Firma BITLC vorschlagen (zwei Geb\u00e4uden mit Klassenr\u00e4umen)?": [
+        "Kreuztopologie",
+        "Zahnradtopologie",
+        "Kreistopologie"
+    ],
+    "Hub ist physikalisch ein ______ und logisch ein ______ ?": [
+        "Buchse, Bahn",
+        "Kreuz, lienar",
+        "Kreis, Ring"
+    ],
+    "Token-Ring-Hub ist physikalisch ein _______ und logisch ein _______?": [
+        "Kreis, Stern",
+        "Ring, Kreis",
+        "Kreuz, Ring"
+    ],
+    "Topologisch gesehen besteht ein Netzwerk aus Knoten (nodes) und Verbindungen (connections). \nIst diese Aussage richtig?": [
+        "Nein",
+        "Nur in der Baumtopologie",
+        "Ja ohne Sterntopologie"
+    ],
+    "Welche Topologie ist im Internet sichtbar?": [
+        "sternf\u00f6rmige Topologie",
+        " Ringtopologie",
+        "hierarchische Baumtopologie"
+    ],
+    "Nennen sie Nachteile der Bus-Topologie?": [
+        "Risiko von Datenverlust",
+        "Niedrige Anf\u00e4lligkeit",
+        "singende Anzahl"
+    ],
+    "Welche Netze verbinden einzelne Netze zu einem Gesamtnetz?": [
+        "Frontbone Netze",
+        "Mash Netze",
+        "hierarchische Netze"
+    ],
+    "Beschreiben Sie Das Personal Area Network (PAN)?": [
+        "PAN(50m)",
+        "PAN(200m)",
+        "Pan(500m)"
+    ],
+    "Wie gro\u00df ist LAN?": [
+        "mehrere Meter",
+        "mehrere 1000 Meter",
+        "mehrer Kilometer"
+    ],
+    "Was unterscheidet WAN vom GAN?": [
+        "GAN ist eine Weiterentwicklung von LAN",
+        "WAN ist auf st\u00e4dtische Bereiche beschr\u00e4nkt",
+        "WAN und GAN sind synonyme Begriffe"
+    ],
+    "Nennen Sie Argumente f\u00fcr die Einf\u00fchrung des Netzwerkes?": [
+        "Netzwerke verringern die Sicherheit",
+        "Netzwerke verlangsamen die Datenverarbeitung",
+        "Netzwerke sind zu teuer und unwirtschaftlich"
+    ],
+    "Nennen Sie drei Arten von Netzwerksystemen in IT-Systemen?": [
+        "NAS",
+        "Router",
+        "backbone Netze"
+    ],
+    "Nennen Sie f\u00fcnf Netzwerkarchitekturen?": [
+        "Hohe Datenschicht",
+        "NAS-Server",
+        "WAN"
+    ],
+    "Welche Aufgabe hat Medienkonverter?": [
+        "Setzt \u00dcbertragungssignale zweier Unterschiedlicher Medien auf Schicht 2 des ISO/OSI Modells um",
+        "Setzt \u00dcbertragungssignale zweier Unterschiedlicher Medien auf Schicht 3 des ISO/OSI Modells um",
+        "Setzt \u00dcbertragungssignale zweier Unterschiedlicher Medien auf Schicht 4 des ISO/OSI Modells um"
+    ],
+    "Ist die folgende Aussage richtig?": [
+        "Netzwerkkarte wandelt nicht parallel empfangene Daten in seriellen Datenstrom",
+        "Prozessor wandelt parallel empfangene Daten in seriellen Datenstrom",
+        "Netzwerkkarte wandelt parallel empfangene Mails in seriellen Datenstrom"
+    ],
+    "Nennen Sie zwei Typen der Netzwerkkarten(NIC)?": [
+        "Kohenstoff CBNIC",
+        "Gravitationsbasiert G-NIC",
+        "Photonische P-NIC"
+    ],
+    "Beschreiben Sie die Aufgabe des Repeaters?": [
+        "Ein Repeater dient dazu, Netzwerkdaten zu verschl\u00fcsseln",
+        "die Bandbreite eines Netzwerks zu reduzieren, um \u00dcberlastungen zu vermeiden",
+        "die Geschwindigkeit eines Netzwerks zu drosseln, um die Energieeffizienz zu verbessern"
+    ],
+    "Was verbindet Hub und Repeater?": [
+        "Hub ist ein Switch",
+        "Hub ist eine Bridge",
+        "Hub ist ein Router"
+    ],
+    "Beschreiben Sie die Aufgabe der Bridge?": [
+        "Bridge verbessert die Leistung",
+        "Bridge k\u00fchlt",
+        "Bridge verbessert die Geschwindigkeit"
+    ],
+    "Wie arbeitet Spanning Tree Protokoll?": [
+        "Router und Netwerkkabek",
+        "Router und Switches",
+        "Netwerkkabek und Bridges"
+    ],
+    "Ist Switch ein Multiport-Bridge?": [
+        "Nein",
+        "Nur die neuen Modelle",
+        "Waren Sie fr\u00fcher mal"
+    ],
+    "Welche Zusatzfunktion haben einige Switches?": [
+        "drahtlose Access Points um WLAN-Signale zu verst\u00e4rken",
+        "VoIP-Anrufe direkt \u00fcber das Netzwerk zu verwalten und zu priorisieren.",
+        "automatisch Netzwerkfehler zu beheben und die Verbindung wiederherzustellen, ohne menschliches Eingreifen"
+    ],
+    "Welche Hauptaufgabe haben Router?": [
+        "IP-Adressen verschl\u00fcsseln",
+        "Computerviren entfernen",
+        "erstellen Sicherungskopien der Netzwerkpakete"
+    ],
+    "Welche weiteren Aufgaben haben Router?": [
+        "Die Signalst\u00e4rke von WLAN-Netzwerken zu erh\u00f6hen",
+        "Alle Ger\u00e4te im Netzwerk regelm\u00e4\u00dfig auf Sicherheitsupdates zu \u00fcberpr\u00fcfen",
+        "Benutzeraktivit\u00e4ten im Netzwerk zu \u00fcberwachen und Nutzerstatistiken erstellen"
+    ],
+    "Nennen Sie die bekannten Routing-Verfahren?": [
+        "Linear",
+        "Dynamisches ",
+        "Statisches"
+    ],
+    "Wann werden Gateways eingesetzt?": [
+        "Um den Datenverkehr zwischen zwei Netzwerken zu beschleunigen",
+        "Für schnelleren Upload",
+        "nur in gro\u00dfen Unternehmensnetzwerken"
+    ]
+}

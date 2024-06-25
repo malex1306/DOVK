@@ -1,11 +1,15 @@
 import tkinter as tk
 from tkinter import messagebox
 import random
-from string import ascii_lowercase
-from converter import write_qa_dictionary
+import json
 
-# Die richtigen Antworten müssen an erster Stelle in der eckigen Klammer stehen.
-QUESTIONS = write_qa_dictionary(folder_path='data/')
+# Load QUESTIONS from data.json
+with open('data.json', 'r', encoding='utf-8') as f:
+     QUESTIONS = json.load(f)
+
+# Load DISTRACTORS from false.json
+with open('false.json', 'r', encoding='utf-8') as f:
+    DISTRACTORS = json.load(f)
 
 class QuizApp:
     def __init__(self, root):
@@ -22,7 +26,7 @@ class QuizApp:
         self.start_frame = tk.Frame(self.root)
         self.start_frame.pack(pady=20)
 
-        self.label = tk.Label(self.start_frame, text="Wieviele Fragen möchten Sie beantworten?")
+        self.label = tk.Label(self.start_frame, text="Wieviele Fragen möchten Sie beantworten? Es gibt aktuell 50 zu beantworten")
         self.label.pack(pady=5)
 
         self.entry = tk.Entry(self.start_frame)
@@ -45,6 +49,7 @@ class QuizApp:
         self.setup_question_frame()
 
     def prepare_questions(self):
+        # Select random questions from QUESTIONS
         self.questions = random.sample(list(QUESTIONS.items()), k=self.num_questions)
 
     def setup_question_frame(self):
@@ -68,14 +73,17 @@ class QuizApp:
         self.show_question()
 
     def show_question(self):
-        question, alternatives = self.questions[self.current_question]
-        self.correct_answer = alternatives[0]
-        ordered_alternatives = random.sample(alternatives, k=len(alternatives))
+        question, correct_answer = self.questions[self.current_question]
+        distractors = DISTRACTORS.get(question, [])
+
+        # Shuffle distractors and add correct answer to the list
+        options = [correct_answer] + distractors
+        random.shuffle(options)
 
         self.question_label.config(text=f"Frage {self.current_question + 1}: {question}")
 
-        for rb, alternative in zip(self.radio_buttons, ordered_alternatives):
-            rb.config(text=alternative, value=alternative)
+        for rb, option in zip(self.radio_buttons, options):
+            rb.config(text=option, value=option)
         self.answer_var.set(None)  # Reset the selected answer
 
     def submit_answer(self):
@@ -84,11 +92,13 @@ class QuizApp:
             messagebox.showwarning("Keine Auswahl", "Bitte wählen Sie eine Antwort aus.")
             return
 
-        if answer == self.correct_answer:
+        question, correct_answer = self.questions[self.current_question]
+
+        if answer == correct_answer:
             self.num_correct += 1
             messagebox.showinfo("Richtig!", "⭐ Richtig! ⭐")
         else:
-            messagebox.showinfo("Falsch", f"Die richtige Antwort ist {self.correct_answer!r}, nicht {answer!r}.")
+            messagebox.showinfo("Falsch", f"Die richtige Antwort ist {correct_answer!r}, nicht {answer!r}.")
 
         self.current_question += 1
         if self.current_question < self.num_questions:
