@@ -5,7 +5,7 @@ import json
 
 # Load QUESTIONS from data.json
 with open('data.json', 'r', encoding='utf-8') as f:
-     QUESTIONS = json.load(f)
+    QUESTIONS = json.load(f)
 
 # Load DISTRACTORS from false.json
 with open('false.json', 'r', encoding='utf-8') as f:
