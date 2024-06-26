@@ -371,9 +371,9 @@
         "World Wide Web Consortium (W3C)"
     ],
     "Welche Adressen der einzelnen Klassen sind f\u00fcr private Adressen freigegeben?": [
-        "",
-        "",
-        ""
+        "Klasse A: 11.0.0.0 bis 11.255.255.255",
+        "Klasse B: 172.32.0.0 bis 172.63.255.255",
+        "Klasse C: 192.169.0.0 bis 192.169.255.255"
     ],
     "Welche Bedeutung hat die Adresse 0.0.0.0?": [
         "Loopback-Adresse f\u00fcr lokale Tests",
