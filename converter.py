@@ -38,4 +38,4 @@ def make_json(dict,folder_path='',file_name='data.json'):
         json.dump(dict, outfile, indent=4)
 
 # Uncomment to generate new data.json
-# make_json(write_qa_dictionary())
+make_json(write_qa_dictionary())

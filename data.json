@@ -1,4 +1,5 @@
 {
+    "Welche Schichten des ISO/OSI-Referenzmodels bilden das Transportsystem?": "Physical Layer \u2013 Bit\u00fcbertragungsschicht, Data Link Layer \u2013 Sicherungsschicht,    Network Layer \u2013 Vermittlungsschicht, Transport Layer \u2013 Transportschicht",
     "Welche Schichten des ISO/OSI-Referenzmodels bilden das Anwendungssystem?": "Session Layer \u2013 Sitzungsschicht, Presentation Layer \u2013 Darstellungsschicht, Application Layer - Anwendungsschicht",
     "Mit wie vielen weiteren Schichten kann eine Schicht des OSI-Referenzmodells kommunizieren?": "Mit 2 Schichten d.h. dar\u00fcber- und darunterliegengenden.",
     "Die Definition von notwendigen physikalischen Schnittstellen ist die Aufgabe eines OSI-Standards. Dazu geh\u00f6ren etwa die ___________, _________ bei Stecker und Buchsen. Bitte erg\u00e4nzen Sie den fehlenden Begriff?": "Pinbelegungen, Signalpegel",
