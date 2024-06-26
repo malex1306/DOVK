@@ -78,7 +78,7 @@ class QuizApp(QWidget):
                 border: 1px solid #5E5E5E;
                 border-radius: 5px;
                 padding: 10px;
-                font-size: 10px;
+                font-size: 15px;
             }
             QLineEdit {
                 padding: 5px;
