@@ -15,17 +15,17 @@ Vasco Basque´
 
 ## Run/Install from Source
 #### Install python
----
+
 Download python 3.12.XX
 https://www.python.org/downloads/
 
 #### Install Qt5
----
+
 - Open windows command line as administrator: **win + R** -> enter cmd and press shift + Ctrl while clicking OK
 - Enter: `pip install PyQt5`
 
 #### Run App
----
+
 via Commandline:
 - cd to the dir with the app
 - enter `python .\Quiz.py`
