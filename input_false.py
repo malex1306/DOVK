@@ -30,7 +30,7 @@ while active:
         print(question)
 
         # input 4 wrong answers
-        for i in range(4):
+        for i in range(3):
             false_answer = input('Geben sie die falsche Antwort ein: ')
             false_list.append(false_answer)
 

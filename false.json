@@ -236,7 +236,168 @@
     ],
     "Wann werden Gateways eingesetzt?": [
         "Um den Datenverkehr zwischen zwei Netzwerken zu beschleunigen",
-        "Für schnelleren Upload",
+        "F\u00c3\u00bcr schnelleren Upload",
         "nur in gro\u00dfen Unternehmensnetzwerken"
+    ],
+    "Um den Kern eines Koaxialkabels befindet sich ein Mantel aus einem nicht leitenden Material. Wie nennt man diese nichtleitende Schicht in der Elektronik?": [
+        "Isolator",
+        "Modulator",
+        "Transistor",
+        "& C:/Users/marcel/AppData/Local/Programs/Python/Python312/python.exe c:/Users/marcel/Desktop/Fahrschulapp/DOVK-main/DOVK/input_false.py"
+    ],
+    "Je h\u00f6her die \u00fcbertragene Frequenz auf einem Koaxialkabel ist, umso weniger Informationen k\u00f6nnen letztendlich in einer Sekunde \u00fcbertragen werden. Ist diese Aussage zutreffend?": [
+        "Ja, diese Aussage ist korrekt, weil h\u00f6here Frequenzen mehr St\u00f6rungen verursachen.",
+        "Ja, diese Aussage ist korrekt, weil die Signalamplitude bei h\u00f6heren Frequenzen abnimmt.",
+        "Ja, diese Aussage ist korrekt, weil h\u00f6here Frequenzen weniger Bandbreite bieten."
+    ],
+    "Eine wichtige physikalische Eigenschaft des Kabels ist sein D\u00e4mpfungsverhalten. In welcher Einheit wird dieses Verhalten gemessen?": [
+        "Volt (V)",
+        "Hertz (Hz)",
+        "Ampere (A)"
+    ],
+    "Welches Werkzeug ben\u00f6tigen Sie, um das Kabel f\u00fcr den Eigengebrauch selbst  zu vorbereiten?": [
+        "L\u00f6tkolben",
+        "Multimeter",
+        "Spannungspr\u00fcfer"
+    ],
+    "Aus mindestens wie vielen soliden und miteinander verdrillten Kupferleitern besteht das Twisted-Pair-Kabel?": [
+        "3 Leitern",
+        "6 Leitern",
+        "12 Leitern"
+    ],
+    "Wie hei\u00dft der Standard Twisted-Pair Anschluss?": [
+        "RJ10",
+        "USB-C",
+        "HDMI"
+    ],
+    "\u00dcber wie viele Anschl\u00fcsse verf\u00fcgt der RJ-45-Stecker?": [
+        "4 Anschl\u00fcsse",
+        "6 Anschl\u00fcsse",
+        "10 Anschl\u00fcsse"
+    ],
+    "Welches Kabel verwendet 1000BASE-T Ethernet?": [
+        "Koaxialkabel",
+        "Fiber-Optic-Kabel",
+        "Twisted-Pair-Kabel der Kategorie 5"
+    ],
+    "Aus welchem Grund werden in der Netzwerktechnik auch Lichtwellenleiter eingesetzt?": [
+        "Geringere Bandbreite als bei Kupferkabeln",
+        "Niedrigere Sicherheit und Datenschutz",
+        "H\u00f6here Kosten und schwerere Handhabung"
+    ],
+    "Auf beiden Seiten eines Lichtwellenleiters befindet sich eine Sende- und Empfangseinheit, die die elektrischen Signale in Lichtimpulse umsetzt und umgekehrt. Die Erzeugung der Lichtimpulse im Sender geschieht entweder mittels einer _______oder einer ________. Im Empf\u00e4nger befinden sich  _______, die die Lichtimpulse wieder aufnehmen. Bitte vervollst\u00e4ndigen Sie die S\u00e4tze.?": [
+        "Gl\u00fchbirne, Diode, Spiegel",
+        "Mikrowellenstrahlung, Diode, Solarzellen",
+        "Elektronenkanone, Gl\u00fchbirne, Schallwellen"
+    ],
+    "Zwischen welchen Faserarten wird bei den Lichtwellenleitern unterschieden?": [
+        "Schwarze Faser und wei\u00dfe Faser",
+        "Flexible Faser und starre Faser",
+        "Einzelfaser und Mehrfaser"
+    ],
+    "Mit welchem Begriff wird der Vorgang, bei dem sich Lichtwellen, die infolge der Reflexion so aufeinander treffen, dass bei einem Signal die Spitze nach oben zeigt, die des anderen nach unten zeigt und sich deshalb ausl\u00f6schen, bezeichnet?": [
+        "Reflexion",
+        "Streuung",
+        "Spaltung"
+    ],
+    "Wie hei\u00dft ein Lichtstrahl, der mit einem bestimmten Einfallswinkel via Reflexion \u00fcbertragen wird?": [
+        "Brechstrahl",
+        "Transversalstrahl",
+        "Abweichender Strahl"
+    ],
+    "Mit welchem Begriff wird die Fertigung einer Verbindung zwischen einem Lichtwellenleiter und einem Verbindungselement bezeichnet?": [
+        "Versiegelung",
+        "\u00dcberbr\u00fcckung",
+        "Verdichtung"
+    ],
+    "Neben Kabelverbindungen werden unter bestimmten Umst\u00e4nden auch kabellose Verbindungsarten eingesetzt. Welche Techniken stehen daf\u00fcr zur Verf\u00fcgung?": [
+        "Infrarot\u00fcbertragung",
+        "Ultraschall\u00fcbertragung",
+        "Magnetfeld\u00fcbertragung"
+    ],
+    "Wie bezeichnet man die Daten\u00fcbertragung \u00fcber die Leitungen der Energieversorgungsunternehmen?": [
+        "WLAN (Wireless LAN)",
+        "Bluetooth",
+        "Satelliten\u00fcbertragung"
+    ],
+    "In welche drei Abschnitte wird ein strukturiertes Netzwerk geteilt?": [
+        "Prim\u00e4rnetz, Sekund\u00e4rnetz, Terti\u00e4rnetz",
+        "Eingangsnetz, Zwischennetz, Ausgangsnetz",
+        ""
+    ],
+    "Wie lang maximal sind permanent Link und Channel Link?": [
+        "Permanent: 10 Meter, Channel: 20 Meter",
+        "Permanent: 20 Meter, Channel: 40 Meter",
+        "Permanent: 40 Meter, Channel: 80 Meter"
+    ],
+    "Welche Informationen liefern NEXT und FEXT?": [
+        "Signalst\u00e4rke und D\u00e4mpfung",
+        "Betriebsspannung und Stromst\u00e4rke",
+        "\u00dcbertragungsrichtung und Protokoll"
+    ],
+    "Warum verdrillt man die Leitungen bei dem Twisted Pair-Kabel?": [
+        "F\u00fcr eine bessere Farbidentifikation",
+        "Um die Flexibilit\u00e4t des Kabels zu erh\u00f6hen",
+        "Zur Gewichtsreduzierung"
+    ],
+    "Welche Schichten unterscheidet TCP/IP-Referenzmodell?": [
+        "Anwendungs-, Transport-, Netzwerk-, Sicherungs- und Bit\u00fcbertragungsschicht",
+        "\u00dcbertragungs-, Empfangs-, Netzwerk-, Datensicherungs- und Bit\u00fcbertragungsschicht",
+        "Anwendungs-, \u00dcbertragungs-, Netzwerk-, Datensicherungs- und Bit\u00fcbertragungsschicht"
+    ],
+    "Nennen Sie die IP-Adress-Klassen und die ersten Bitbelegungen der Klassen?": [
+        "Alpha, Beta, Gamma - 1000, 1100, 1110",
+        "A, B, C - 1000, 0100, 0010",
+        "I, II, III - 1100, 1000, 0100"
+    ],
+    "Nennen Sie Netz- und Hostanteile in Bytes f\u00fcr diese Klassen?": [
+        "Netzteil: 4 Bytes, Hostteil: 4 Bytes",
+        "Netzteil: 1 Byte, Hostteil: 3 Bytes",
+        "Netzteil: 3 Bytes, Hostteil: 1 Byte"
+    ],
+    "Berechnen Sie genau Anzahl der Adressen(Hosts) der A-Klasse?": [
+        "256\u00d7256 sind 65.536 Adressen",
+        "2 hoch 8 sind 256 Adressen",
+        "2 hoch 16 sind 65536 Adressen"
+    ],
+    "Wof\u00fcr sind die Adressen der D-Klasse gedacht?": [
+        "F\u00fcr private Netzwerke und lokale Kommunikation",
+        "F\u00fcr Broadcast-Adressen und Multicast-Gruppen",
+        "F\u00fcr statische IP-Adressen und Server-Verbindungen"
+    ],
+    "Wer verwaltet die IPv4-Adressen?": [
+        "Internationale Telekommunikationsunion (ITU)",
+        "Internet Corporation for Assigned Names and Numbers (ICANN)",
+        "World Wide Web Consortium (W3C)"
+    ],
+    "Welche Adressen der einzelnen Klassen sind f\u00fcr private Adressen freigegeben?": [
+        "",
+        "",
+        ""
+    ],
+    "Welche Bedeutung hat die Adresse 0.0.0.0?": [
+        "Loopback-Adresse f\u00fcr lokale Tests",
+        "Broadcast-Adresse im lokalen Netzwerk",
+        "Reservierte IP-Adresse f\u00fcr zuk\u00fcnftige Nutzung"
+    ],
+    "Welche Bedeutung hat die Adresse 127.0.0.1?": [
+        "Broadcast-Adresse im lokalen Netzwerk",
+        "Standard-Gateway-Adresse",
+        "Reservierte IP-Adresse f\u00fcr zuk\u00fcnftige Nutzung"
+    ],
+    "Welche Bedeutung hat die Adresse 255.255.255.255?": [
+        "Multicast-Adresse f\u00fcr spezielle Netzwerkdienste",
+        "Reservierte Broadcast-Adresse f\u00fcr IPv6",
+        "Loopback-Adresse f\u00fcr lokale Tests"
+    ],
+    "Welche Bedeutung hat die Adresse 169.254.0.0 (169.254.x.x)?": [
+        "Privates IP-Adresssegment f\u00fcr lokale Netzwerke",
+        "Reserviert f\u00fcr automatische Private IP-Adresszuweisung (APIPA)",
+        "Loopback-Adresse f\u00fcr lokale Tests"
+    ],
+    "Erkl\u00e4ren Sie folgende Begriffe: Unicast, Broadcast,  Multicast, Anycast?": [
+        "Unicast: Eine Übertragungsmethode, bei der Daten an alle Geräte im Netzwerk gesendet werden. Broadcast: Eine Übertragungsmethode, bei der Daten nur an einen bestimmten Empfänger gesendet werden. Multicast: Eine Übertragungsmethode, bei der Daten nur an einen bestimmten Empfänger gesendet werden. Anycast: Eine Übertragungsmethode, bei der Daten an alle Geräte im Netzwerk gesendet werden, außer an den Sender selbst.",
+        "Unicast: Eine Übertragungsmethode, bei der Daten nur an einen bestimmten Server gesendet werden. Broadcast: Eine Übertragungsmethode, bei der Daten an einen bestimmten Server gesendet werden. Multicast: Eine Übertragungsmethode, bei der Daten an alle Geräte im Netzwerk gesendet werden, außer an den Sender selbst. Anycast: Eine Übertragungsmethode, bei der Daten an eine Gruppe von Geräten gesendet werden, die denselben Dienst nutzen.",
+        "Unicast: Eine Übertragungsmethode, bei der Daten an eine Gruppe von Geräten gesendet werden. Broadcast: Eine Übertragungsmethode, bei der Daten an alle Geräte im Netzwerk gesendet werden, außer an den Sender selbst. Multicast: Eine Übertragungsmethode, bei der Daten an eine Gruppe von Geräten gesendet werden, die denselben Dienst nutzen. Anycast: Eine Übertragungsmethode, bei der dieselbe IP-Adresse mehreren Servern zugewiesen wird, die denselben Dienst bereitstellen."
     ]
 }
