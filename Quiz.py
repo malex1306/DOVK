@@ -1,13 +1,17 @@
 import sys
 import random
 import json
+import os
 from PyQt5.QtWidgets import (QApplication, QWidget, QVBoxLayout, QLabel, QLineEdit,
                              QPushButton, QRadioButton, QButtonGroup, QMessageBox, QMenuBar, QMenu, QAction)
 from PyQt5.QtGui import QIcon
 
+# Basisverzeichnis ermitteln
+base_path = os.path.dirname(os.path.abspath(__file__))
+
 # Load QUESTIONS from data.json
 try:
-    with open('data.json', 'r', encoding='utf-8') as f:
+    with open(os.path.join(base_path, 'data.json'), 'r', encoding='utf-8') as f:
         QUESTIONS = json.load(f)
 except (FileNotFoundError, json.JSONDecodeError) as e:
     print(f"Error loading data.json: {e}")
@@ -15,7 +19,7 @@ except (FileNotFoundError, json.JSONDecodeError) as e:
 
 # Load DISTRACTORS from false.json
 try:
-    with open('false.json', 'r', encoding='utf-8') as f:
+    with open(os.path.join(base_path, 'false.json'), 'r', encoding='utf-8') as f:
         DISTRACTORS = json.load(f)
 except (FileNotFoundError, json.JSONDecodeError) as e:
     print(f"Error loading false.json: {e}")
@@ -90,6 +94,7 @@ class QuizApp(QWidget):
                 border: none;
                 border-radius: 5px;
                 padding: 6px 12px; /* Kleinere Padding-Werte für kleinere Buttons */
+                
             }
             QPushButton:hover {
                 background-color: #7c7f95;
