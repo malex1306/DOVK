@@ -1,7 +1,14 @@
+# Script zum einlesen einer Anzahl von .docx Dokumenten die Fragen und Antworten
+# enthalten und Anlegen einer .json Datei, welche Fragen als Keys und zugehörige 
+# Antworten als Value enthält
+
 from docx import Document
 import os, json
 
 def read_questions_answers(filename):
+    """Liest eine .docx-Datei und legt ein dictionary mit Frage/Antwort Paaren 
+    an Voraussetzung: Fragen enden mit einem '?' es folgt ein Zeilenumbruch und 
+    ein Anwortblock"""
     doc = Document(filename)
     qa_dict = {}
     current_question = None
@@ -23,6 +30,8 @@ def read_questions_answers(filename):
     return qa_dict
 
 def write_qa_dictionary(folder_path='data/'):
+    """Liest alle docx-Dateien im Data-Folder und gibt sie als Frage/Anwort Paare
+    in einem dictionary zurück"""
     qa_dict = {}
     # Iteration über alle Dateien in folder_path
     for file in os.listdir(folder_path):
@@ -33,9 +42,10 @@ def write_qa_dictionary(folder_path='data/'):
     return qa_dict
 
 def make_json(dict,folder_path='',file_name='data.json'):
+    """Erhält ein Dictionary als Parameter und gibt eine .json Datei aus"""
     file_path = os.path.join(folder_path, file_name)
     with open(file_path, 'w') as outfile:
         json.dump(dict, outfile, indent=4)
 
 # Uncomment to generate new data.json
-make_json(write_qa_dictionary())
+# make_json(write_qa_dictionary())

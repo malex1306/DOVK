@@ -1,5 +1,8 @@
-# script zum generieren eines dictionaries mit fragen (keys) und einer liste von
-# falschen antworten zur passenden frage (value)
+# Script zum generieren eines dictionaries mit fragen (keys) und einer liste von
+# falschen antworten, die per Konsole eingegeben werden, zur passenden frage (value)
+# das Dictionary wird als .json Datei gespeichert. Bei erneuter Eingabe wird
+# geprüft ob besagte .json Datei vorhanden ist und schon beanwortete Fragen werden
+# übersprungen
 
 import json, os, converter
 
