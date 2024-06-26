@@ -236,14 +236,13 @@
     ],
     "Wann werden Gateways eingesetzt?": [
         "Um den Datenverkehr zwischen zwei Netzwerken zu beschleunigen",
-        "F\u00c3\u00bcr schnelleren Upload",
+        "F\u00fcr schnelleren Upload",
         "nur in gro\u00dfen Unternehmensnetzwerken"
     ],
     "Um den Kern eines Koaxialkabels befindet sich ein Mantel aus einem nicht leitenden Material. Wie nennt man diese nichtleitende Schicht in der Elektronik?": [
         "Isolator",
         "Modulator",
-        "Transistor",
-        "& C:/Users/marcel/AppData/Local/Programs/Python/Python312/python.exe c:/Users/marcel/Desktop/Fahrschulapp/DOVK-main/DOVK/input_false.py"
+        "Transistor"
     ],
     "Je h\u00f6her die \u00fcbertragene Frequenz auf einem Koaxialkabel ist, umso weniger Informationen k\u00f6nnen letztendlich in einer Sekunde \u00fcbertragen werden. Ist diese Aussage zutreffend?": [
         "Ja, diese Aussage ist korrekt, weil h\u00f6here Frequenzen mehr St\u00f6rungen verursachen.",
@@ -396,8 +395,8 @@
         "Loopback-Adresse f\u00fcr lokale Tests"
     ],
     "Erkl\u00e4ren Sie folgende Begriffe: Unicast, Broadcast,  Multicast, Anycast?": [
-        "Unicast: Eine Übertragungsmethode, bei der Daten an alle Geräte im Netzwerk gesendet werden. Broadcast: Eine Übertragungsmethode, bei der Daten nur an einen bestimmten Empfänger gesendet werden. Multicast: Eine Übertragungsmethode, bei der Daten nur an einen bestimmten Empfänger gesendet werden. Anycast: Eine Übertragungsmethode, bei der Daten an alle Geräte im Netzwerk gesendet werden, außer an den Sender selbst.",
-        "Unicast: Eine Übertragungsmethode, bei der Daten nur an einen bestimmten Server gesendet werden. Broadcast: Eine Übertragungsmethode, bei der Daten an einen bestimmten Server gesendet werden. Multicast: Eine Übertragungsmethode, bei der Daten an alle Geräte im Netzwerk gesendet werden, außer an den Sender selbst. Anycast: Eine Übertragungsmethode, bei der Daten an eine Gruppe von Geräten gesendet werden, die denselben Dienst nutzen.",
-        "Unicast: Eine Übertragungsmethode, bei der Daten an eine Gruppe von Geräten gesendet werden. Broadcast: Eine Übertragungsmethode, bei der Daten an alle Geräte im Netzwerk gesendet werden, außer an den Sender selbst. Multicast: Eine Übertragungsmethode, bei der Daten an eine Gruppe von Geräten gesendet werden, die denselben Dienst nutzen. Anycast: Eine Übertragungsmethode, bei der dieselbe IP-Adresse mehreren Servern zugewiesen wird, die denselben Dienst bereitstellen."
+        "Unicast: Eine \u00fcbertragungsmethode, bei der Daten an alle Geräte im Netzwerk gesendet werden. Broadcast: Eine \u00fcbertragungsmethode, bei der Daten nur an einen bestimmten Empfänger gesendet werden. Multicast: Eine \u00fcbertragungsmethode, bei der Daten nur an einen bestimmten Empfänger gesendet werden. Anycast: Eine \u00fcbertragungsmethode, bei der Daten an alle Geräte im Netzwerk gesendet werden, außer an den Sender selbst.",
+        "Unicast: Eine \u00fcbertragungsmethode, bei der Daten nur an einen bestimmten Server gesendet werden. Broadcast: Eine \u00fcbertragungsmethode, bei der Daten an einen bestimmten Server gesendet werden. Multicast: Eine \u00fcbertragungsmethode, bei der Daten an alle Geräte im Netzwerk gesendet werden, außer an den Sender selbst. Anycast: Eine \u00fcbertragungsmethode, bei der Daten an eine Gruppe von Geräten gesendet werden, die denselben Dienst nutzen.",
+        "Unicast: Eine \u00fcbertragungsmethode, bei der Daten an eine Gruppe von Geräten gesendet werden. Broadcast: Eine \u00fcbertragungsmethode, bei der Daten an alle Geräte im Netzwerk gesendet werden, außer an den Sender selbst. Multicast: Eine \u00fcbertragungsmethode, bei der Daten an eine Gruppe von Geräten gesendet werden, die denselben Dienst nutzen. Anycast: Eine \u00fcbertragungsmethode, bei der dieselbe IP-Adresse mehreren Servern zugewiesen wird, die denselben Dienst bereitstellen."
     ]
 }
