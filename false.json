@@ -323,7 +323,7 @@
     "In welche drei Abschnitte wird ein strukturiertes Netzwerk geteilt?": [
         "Prim\u00e4rnetz, Sekund\u00e4rnetz, Terti\u00e4rnetz",
         "Eingangsnetz, Zwischennetz, Ausgangsnetz",
-        ""
+        "Hauptnetz, Unterstützungsnetz, Nebennetz"
     ],
     "Wie lang maximal sind permanent Link und Channel Link?": [
         "Permanent: 10 Meter, Channel: 20 Meter",
