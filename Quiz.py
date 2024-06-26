@@ -2,7 +2,7 @@ import sys
 import random
 import json
 import os
-from PyQt5.QtWidgets import (QApplication, QWidget, QVBoxLayout, QLabel, QLineEdit,
+from PyQt5.QtWidgets import (QApplication, QWidget, QVBoxLayout, QHBoxLayout, QLabel, QLineEdit,
                              QPushButton, QRadioButton, QButtonGroup, QMessageBox, QMenuBar, QMenu, QAction)
 from PyQt5.QtGui import QIcon
 
@@ -33,7 +33,6 @@ class QuizApp(QWidget):
         self.current_question = 0
         self.num_correct = 0
         self.user_name = ""
-        
 
         self.initUI()
 
@@ -93,8 +92,7 @@ class QuizApp(QWidget):
                 font-size: 20px;
                 border: none;
                 border-radius: 5px;
-                padding: 6px 12px; /* Kleinere Padding-Werte für kleinere Buttons */
-                
+                padding: 20px 12px;
             }
             QPushButton:hover {
                 background-color: #7c7f95;
@@ -129,20 +127,30 @@ class QuizApp(QWidget):
     def show_start_menu(self):
         self.clear_layout()
 
-        # Start Button
+        button_layout = QVBoxLayout()
+        button_layout.setSpacing(10)
+
         self.start_button = QPushButton("Start", self)
         self.start_button.clicked.connect(self.show_name_and_questions_input)
-        self.layout.addWidget(self.start_button)
+        button_layout.addWidget(self.start_button)
 
-        # About Button
         self.about_button = QPushButton("About App", self)
         self.about_button.clicked.connect(self.show_about)
-        self.layout.addWidget(self.about_button)
+        button_layout.addWidget(self.about_button)
 
-         # Quit Button
         self.quit_button = QPushButton("Quit", self)
         self.quit_button.clicked.connect(self.close)
-        self.layout.addWidget(self.quit_button)
+        button_layout.addWidget(self.quit_button)
+
+        button_widget = QWidget()
+        button_widget.setLayout(button_layout)
+
+        centered_layout = QHBoxLayout()
+        centered_layout.addStretch()
+        centered_layout.addWidget(button_widget)
+        centered_layout.addStretch()
+
+        self.layout.addLayout(centered_layout)
 
     def show_name_and_questions_input(self):
         self.clear_layout()
@@ -184,7 +192,6 @@ class QuizApp(QWidget):
         self.show_question_frame()
 
     def prepare_questions(self):
-        # Select random questions from QUESTIONS
         self.questions = random.sample(list(QUESTIONS.items()), k=self.num_questions)
 
     def show_question_frame(self):
@@ -212,13 +219,6 @@ class QuizApp(QWidget):
         question, correct_answer = self.questions[self.current_question]
         distractors = DISTRACTORS.get(question, [])
 
-
-        # Debug print statement
-        #print(f"Question: {question}")
-        #print(f"Correct Answer: {correct_answer}")
-        #print(f"Distractors: {distractors}")
-
-        # Shuffle distractors and add correct answer to the list
         options = [correct_answer] + distractors
         random.shuffle(options)
 
@@ -239,7 +239,7 @@ class QuizApp(QWidget):
 
         if answer == correct_answer:
             self.num_correct += 1
-            self.update_score_menu()  # Update score menu on correct answer
+            self.update_score_menu()
             QMessageBox.information(self, "Richtig!", "⭐ Richtig! ⭐")
         else:
             QMessageBox.information(self, "Falsch", f"Die richtige Antwort ist {correct_answer!r}, nicht {answer!r}.")
@@ -267,11 +267,15 @@ class QuizApp(QWidget):
         self.layout.addWidget(close_button)
 
     def clear_layout(self):
-        while self.layout.count() > 0:
-            item = self.layout.takeAt(0)
-            widget = item.widget()
-            if widget is not None:
-                widget.deleteLater()
+        for i in reversed(range(self.layout.count())):
+            item = self.layout.itemAt(i)
+            if isinstance(item, QVBoxLayout) or isinstance(item, QHBoxLayout):
+                while item.count():
+                    child = item.takeAt(0)
+                    if child.widget():
+                        child.widget().deleteLater()
+            elif item.widget():
+                item.widget().deleteLater()
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
