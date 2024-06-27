@@ -2,6 +2,7 @@ import sys
 import random
 import json
 import os
+from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import (QApplication, QWidget, QVBoxLayout, QHBoxLayout, QLabel, QLineEdit,
                              QPushButton, QRadioButton, QButtonGroup, QMessageBox, QMenuBar, QMenu, QAction, QStatusBar)
 from PyQt5.QtGui import QIcon
@@ -224,8 +225,18 @@ class QuizApp(QWidget):
             rb.setText(option)
             rb.setChecked(False)
 
+    def keyPressEvent(self, event):
+        if event.key() == Qt.Key_Return or event.key() == Qt.Key_Enter:
+            if self.current_question < self.num_questions:
+                # Nur wenn wir uns im Quizmodus befinden
+                self.submit_answer()
+                self.current_question += 1
+                if self.current_question < self.num_questions:
+                    self.show_question()
+
     def submit_answer(self):
         selected_button = self.answer_group.checkedButton()
+
         if not selected_button:
             QMessageBox.warning(self, "Keine Auswahl", "Bitte wählen Sie eine Antwort aus.")
             return
