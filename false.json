@@ -528,5 +528,105 @@
         "Beide Protokolle sind identisch und unterscheiden sich nicht.",
         "TCP verwendet eine verbindungslose Kommunikation, w\u00e4hrend UDP eine verbindungsorientierte Kommunikation verwendet.",
         "TCP ist schneller als UDP aufgrund der \u00dcberpr\u00fcfung der Datenintegrit\u00e4t."
+    ],
+    "Was Sie der Dachverband nationaler Standardisierungsgremien auf internationaler Ebene?": [
+        "IEEE (Institute of Electrical and Electronics Engineers)",
+        "IETF (Internet Engineering Task Force)",
+        "ITFO (International Task Force Organization)"
+    ],
+    "Welche Organisation betreut Standardgruppe 802?": [
+        "IETF (Internet Engineering Task Force)",
+        "ITU (International Telecommunication Union)",
+        "ISO (International Organization for Standardization)"
+    ],
+    "Welche Organisation ist f\u00fcr internationale Zuweisung und Registrierung von Sende- und Empfangsfrequenzen oder Internationale Regelungen f\u00fcr die Nutzung von Frequenzen zust\u00e4ndig?": [
+        "IEEE (Institute of Electrical and Electronics Engineers)",
+        "IETF (Internet Engineering Task Force)",
+        "ISO (International Organization for Standardization)"
+    ],
+    "was geh\u00f6rt zu den 802 Gruppen?": [
+        "USB (Universal Serial Bus)",
+        "HDMI (High-Definition Multimedia Interface)",
+        "SATA (Serial ATA)"
+    ],
+    "Welches Zugriffsverfahren verwendet Ethernet?": [
+        "CDMA (Code Division Multiple Access)",
+        "TDMA (Time Division Multiple Access)",
+        "FDMA (Frequency Division Multiple Access)"
+    ],
+    "Welche zwei Frame-Arten unterst\u00fctzen moderne Netzwerkkarten?": [
+        "PDU (Protocol Data Unit) und ACK (Acknowledgment)",
+        "TCP (Transmission Control Protocol) und UDP (User Datagram Protocol)",
+        "IPv4 (Internet Protocol Version 4) und IPv6 (Internet Protocol Version 6)"
+    ],
+    "vervollst\u00e4ndigen Sie die S\u00e4tze. TCP/IP-Protokoll verwendet ____________-Frame. \nNetBEUI-Protokoll verwendet _____________-Frame?": [
+        "Ethernet, Token Ring",
+        "WLAN, Bluetooth",
+        "Token Ring, Ethernet"
+    ],
+    "was sind die Funktionen der Netzwerkkarte?": [
+        "Verwaltung der Netzwerkverschl\u00fcsselung",
+        "Kontrolle der Stromversorgung des gesamten Netzwerks",
+        "\u00dcberwachung der Serverleistung"
+    ],
+    "Welche logische Topologie verwendet Token-Ring?": [
+        "Mesh-Topologie",
+        "Stern-Topologie",
+        "Bus-Topologie"
+    ],
+    "Wie schnell ist Token-Ring?": [
+        "100 Mbps",
+        "1 Gbps",
+        "10 Gbps"
+    ],
+    "Im welchen Bereich arbeitet FDDI?": [
+        "1 Gbps",
+        "10 Gbps",
+        "69 Mbps"
+    ],
+    "Welche logische Topologie verwendet FDDI?": [
+        "Bus-Topologie",
+        "Mesh-Topologie",
+        "Stern-Topologie"
+    ],
+    "Wie schnell ist FDDI?": [
+        "10 Mbps",
+        "100 Mbps",
+        "1 Gbps"
+    ],
+    "Wie gro\u00df ist max. Ringl\u00e4nge von FDDI?": [
+        "100 Meter",
+        "500 Meter",
+        "1 Kilometer"
+    ],
+    "Wie viele Stationen d\u00fcrfen am Ring angeschlossen sein?": [
+        "10 Stationen",
+        "50 Stationen",
+        "100 Stationen"
+    ],
+    "Welche Vorteile bringt mit sich CIDR-Verfahren?": [
+        "Verbesserte Sicherheit durch Verschl\u00fcsselung aller Netzwerkdaten.",
+        "Vereinfachte Verwaltung und Reduzierung der Anzahl ben\u00f6tigter IP-Adressen.",
+        "Automatische Erkennung und Behebung von Netzwerkproblemen."
+    ],
+    "Welche Notation wird als Ersatz der Maske bei CIDR verwendet?": [
+        "MAC-Adresse (Media Access Control)",
+        "EUI-64 (Extended Unique Identifier)",
+        "IP-Adresse in bin\u00e4rer Form"
+    ],
+    "Sie entscheiden sich f\u00fcr die Netzadresse 192.168.221.0 .  Sie m\u00fcssen 13 Teilnetze erstellen. Wie viele Adressen d\u00fcrfen Sie maximal pro Teilnetz vergeben?": [
+        "16 Adressen",
+        "64 Adressen",
+        "48 Adressen"
+    ],
+    "Sie entscheiden sich f\u00fcr die Netzadresse 192.168.17.0 .  Im Raum(1 Raum =1 Teilnetz) d\u00fcrfen max. 10 Rechner mit eigenem IP stehen. Wie viele Teilnetze maximal d\u00fcrfen Sie einrichten?": [
+        "8 Teilnetze",
+        "32 Teilnetze",
+        "64 Teilnetze"
+    ],
+    "Sie sollen ein internes Netz mit 80 Teilnetzen und jeweils 50 Rechner pro Teilnetz mit Adressen versehen. Welche privaten Adressen kommen in Frage?": [
+        "10.0.0.0/8",
+        "169.254.0.0/16",
+        "192.168.0.0/16"
     ]
 }
