@@ -158,11 +158,6 @@ class QuizApp(QWidget):
     def show_name_and_questions_input(self):
         self.clear_layout()
 
-        self.label_name = QLabel("Geben Sie Ihren Namen ein:")
-        self.layout.addWidget(self.label_name)
-
-        self.entry_name = QLineEdit(self)
-        self.layout.addWidget(self.entry_name)
 
         self.label_questions = QLabel(f"Wieviele Fragen möchten Sie beantworten? Es gibt aktuell {len(QUESTIONS)} zu beantworten")
         self.layout.addWidget(self.label_questions)
@@ -178,11 +173,7 @@ class QuizApp(QWidget):
         QMessageBox.information(self, "About App", "Diese Anwendung wurde entwickelt und ist Eigentum von Vasco B. (Datenverwaltung), Marcel N. (Hauptprogrammierung) und Marcel A. (Grafische Benutzeroberfläche).")
 
     def start_quiz(self):
-        self.user_name = self.entry_name.text().strip()
-        if not self.user_name:
-            QMessageBox.critical(self, "Ungültige Eingabe", "Bitte geben Sie Ihren Namen ein.")
-            return
-
+    
         try:
             self.num_questions = int(self.entry_questions.text())
             if not (1 <= self.num_questions <= len(QUESTIONS)):
