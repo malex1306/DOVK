@@ -238,7 +238,7 @@ class QuizApp(QWidget):
             self.update_score_menu()
             QMessageBox.information(self, "Richtig!", "⭐ Richtig! ⭐")
         else:
-            QMessageBox.information(self, "Falsch", f"Die richtige Antwort ist {correct_answer!r}, nicht {answer!r}.")
+            QMessageBox.information(self, "Falsch", f"Die richtige Antwort ist:\n{correct_answer!r}")
 
         self.current_question += 1
         if self.current_question < self.num_questions:
