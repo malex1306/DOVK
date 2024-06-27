@@ -59,7 +59,7 @@
         "Es vereinfacht die Netzwerkkonfiguration",
         "Das Protokoll erh\u00f6ht die Sicherheit."
     ],
-    "(R)Aus welchen Unterschichten besteht Sicherungsschicht?": [
+    "Aus welchen Unterschichten besteht Sicherungsschicht?": [
         "TCP & LCP",
         "OSI & ISO",
         "LAN & Wlan"
@@ -79,7 +79,7 @@
         "ARQ",
         "LLC"
     ],
-    "(R)Welche Ger\u00e4te arbeiten auf den Schichten 1 bis 7?": [
+    "Welche Ger\u00e4te arbeiten auf den Schichten 1 bis 7?": [
         "Satelite",
         "Funkradio",
         "Wasserk\u00fchlung"
@@ -322,7 +322,7 @@
     "In welche drei Abschnitte wird ein strukturiertes Netzwerk geteilt?": [
         "Prim\u00e4rnetz, Sekund\u00e4rnetz, Terti\u00e4rnetz",
         "Eingangsnetz, Zwischennetz, Ausgangsnetz",
-        "Hauptnetz, Unterstützungsnetz, Nebennetz"
+        "Hauptnetz, Unterst\u00c3\u00bctzungsnetz, Nebennetz"
     ],
     "Wie lang maximal sind permanent Link und Channel Link?": [
         "Permanent: 10 Meter, Channel: 20 Meter",
@@ -395,8 +395,138 @@
         "Loopback-Adresse f\u00fcr lokale Tests"
     ],
     "Erkl\u00e4ren Sie folgende Begriffe: Unicast, Broadcast,  Multicast, Anycast?": [
-        "Unicast: Eine \u00fcbertragungsmethode, bei der Daten an alle Geräte im Netzwerk gesendet werden. Broadcast: Eine \u00fcbertragungsmethode, bei der Daten nur an einen bestimmten Empfänger gesendet werden. Multicast: Eine \u00fcbertragungsmethode, bei der Daten nur an einen bestimmten Empfänger gesendet werden. Anycast: Eine \u00fcbertragungsmethode, bei der Daten an alle Geräte im Netzwerk gesendet werden, außer an den Sender selbst.",
-        "Unicast: Eine \u00fcbertragungsmethode, bei der Daten nur an einen bestimmten Server gesendet werden. Broadcast: Eine \u00fcbertragungsmethode, bei der Daten an einen bestimmten Server gesendet werden. Multicast: Eine \u00fcbertragungsmethode, bei der Daten an alle Geräte im Netzwerk gesendet werden, außer an den Sender selbst. Anycast: Eine \u00fcbertragungsmethode, bei der Daten an eine Gruppe von Geräten gesendet werden, die denselben Dienst nutzen.",
-        "Unicast: Eine \u00fcbertragungsmethode, bei der Daten an eine Gruppe von Geräten gesendet werden. Broadcast: Eine \u00fcbertragungsmethode, bei der Daten an alle Geräte im Netzwerk gesendet werden, außer an den Sender selbst. Multicast: Eine \u00fcbertragungsmethode, bei der Daten an eine Gruppe von Geräten gesendet werden, die denselben Dienst nutzen. Anycast: Eine \u00fcbertragungsmethode, bei der dieselbe IP-Adresse mehreren Servern zugewiesen wird, die denselben Dienst bereitstellen."
+        "Unicast: Eine \u00fcbertragungsmethode, bei der Daten an alle Ger\u00c3\u00a4te im Netzwerk gesendet werden. Broadcast: Eine \u00fcbertragungsmethode, bei der Daten nur an einen bestimmten Empf\u00c3\u00a4nger gesendet werden. Multicast: Eine \u00fcbertragungsmethode, bei der Daten nur an einen bestimmten Empf\u00c3\u00a4nger gesendet werden. Anycast: Eine \u00fcbertragungsmethode, bei der Daten an alle Ger\u00c3\u00a4te im Netzwerk gesendet werden, au\u00c3\u0178er an den Sender selbst.",
+        "Unicast: Eine \u00fcbertragungsmethode, bei der Daten nur an einen bestimmten Server gesendet werden. Broadcast: Eine \u00fcbertragungsmethode, bei der Daten an einen bestimmten Server gesendet werden. Multicast: Eine \u00fcbertragungsmethode, bei der Daten an alle Ger\u00c3\u00a4te im Netzwerk gesendet werden, au\u00c3\u0178er an den Sender selbst. Anycast: Eine \u00fcbertragungsmethode, bei der Daten an eine Gruppe von Ger\u00c3\u00a4ten gesendet werden, die denselben Dienst nutzen.",
+        "Unicast: Eine \u00fcbertragungsmethode, bei der Daten an eine Gruppe von Ger\u00c3\u00a4ten gesendet werden. Broadcast: Eine \u00fcbertragungsmethode, bei der Daten an alle Ger\u00c3\u00a4te im Netzwerk gesendet werden, au\u00c3\u0178er an den Sender selbst. Multicast: Eine \u00fcbertragungsmethode, bei der Daten an eine Gruppe von Ger\u00c3\u00a4ten gesendet werden, die denselben Dienst nutzen. Anycast: Eine \u00fcbertragungsmethode, bei der dieselbe IP-Adresse mehreren Servern zugewiesen wird, die denselben Dienst bereitstellen."
+    ],
+    "Die sogenannte TCP/IP Protokollsuite umfasst Regeln f\u00fcr den Kommunikationsaufbau und ___________________ innerhalb eines Netzes, sowie RegeIn f\u00fcr die __________________ in unterschiedlichen Netzen, die miteinander verbunden sind?": [
+        "Datenverarbeitung, Fehlererkennung",
+        "Datenspeicherung, Lastverteilung",
+        "Verbindungsaufbau, Netzwerksicherheit"
+    ],
+    "Nennen Sie bitte Programme, die auf die TCP/IP Protokollsuite aufsetzen?": [
+        "Microsoft Word",
+        "Adobe Photoshop",
+        "VLC Media Player"
+    ],
+    "Welches Schichtenmodell liefert TCP/IP und kann dem OSI-Referenzmodell gegen\u00fcbergestellt werden?": [
+        "Das Ethernet-Schichtenmodell",
+        "Das IEEE 802.11-Schichtenmodell",
+        "Das Bluetooth-Schichtenmodell"
+    ],
+    "Das Transmission Control Protocol (TCP) ist ein Protokoll f\u00fcr eine gesicherte Verbindung zwischen zwei Systemen. Woraus besteht diese Sicherung beim Datenversand?": [
+        "Datenverschl\u00fcsselung und Benutzerauthentifizierung",
+        "IP-Adressverifizierung und Datenkompression",
+        "Netzwerk\u00fcberwachung und Paketfilterung"
+    ],
+    "Das User Datagram Protocol ist im Gegensatz zu TCP ein ungesicherter verbindungsloser Dienst. Welchen Nachteil weist dieses Protokoll auf?": [
+        "Es kann nur in lokalen Netzwerken verwendet werden.",
+        "Es unterst\u00fctzt keine Datenkompression.",
+        "Es kann keine verschl\u00fcsselten Verbindungen aufbauen."
+    ],
+    "Was ist die Hauptaufgabe des Internet-Protocols?": [
+        "Datenverschl\u00fcsselung f\u00fcr sichere \u00dcbertragungen",
+        "Verbindungsaufbau und -abbau zwischen zwei Endsystemen",
+        "Datenkompression zur Reduktion der \u00dcbertragungsgr\u00f6\u00dfe"
+    ],
+    "Wozu dient das Internet Control Message Protocol?": [
+        "Zur Verschl\u00fcsselung von Datenpaketen w\u00e4hrend der \u00dcbertragung",
+        "Zum Aufbau und Abbau von Netzwerkverbindungen",
+        "Zur Speicherung von Webseitendaten auf lokalen Servern"
+    ],
+    "Welches Protokoll \u00fcbersetzt IP-Adressen in MAC-Adressen (auch als Umsetzung von Software-Adressen in Hardware-Adressen bezeichnet)?": [
+        "DNS (Domain Name System)",
+        "DHCP (Dynamic Host Configuration Protocol)",
+        "SMTP (Simple Mail Transfer Protocol)"
+    ],
+    "Normalerweise wird die IP-Adresse in der \"conial form\u00ab angegeben. Mit wie vielen Bytes wird diese, jeweils einzeln in dezimaler Schreibweise durch Punkte getrennt, angegeben?": [
+        "6 Bytes",
+        "8 Bytes",
+        "2 Bytes"
+    ],
+    "Bitte geben Sie den Well-Known-Port an, unter dem FTP zu erreichen ist?": [
+        "Port 22",
+        "Port 80",
+        "Port 143"
+    ],
+    "Aus welchen zwei Teilen besteht eine IP-Adresse (z.B. bei Subnetting)?": [
+        "Prefix und Suffix",
+        "Quartett und Oktett",
+        "Host und Gateway"
+    ],
+    "Das Network bezeichnet eine logische oder organisatorische Einheit von Rechnern, wie etwa eine Firma oder eine Organisation. Der Host-Anteil bezeichnet dann die einzelnen Rechner in dieser Einheit. Trifft diese Aussage zu?": [
+        "Nein weil Das Network bezeichnet das physische Layout eines Netzwerks, nicht die organisatorische Einheit.",
+        "Nein weil Der Host-Anteil bezeichnet die Router und Switches in einem Netzwerk.",
+        "Nein Das Network bezeichnet das gesamte Internet, nicht nur eine einzelne Organisation."
+    ],
+    "Wie wird der Vorgang bezeichnet, bei dem mit Hilfe der Subnet-Mask festgelegt wird, was als netzinterner Network-Anteil und was als netzinterner Host-Anteil gelten soll?": [
+        "Subnautica",
+        "Host-Zuordnung",
+        "Netzwerk-Identifizierung"
+    ],
+    "Statt IP-Adressen mit Zahlenkombinationen anzugeben, werden h\u00e4ufig Namen verwendet. Wie hei\u00dft es?": [
+        "Domain Name Service (DNS)",
+        "Domain Verification Protocol (DVP)",
+        "Name Address Resolution Protocol (NARP)"
+    ],
+    "Die Klasse der IPv4-Adresse erkennt man im ersten (linken Byte). Ist die Aussage richtig?": [
+        "Nein, die Klasse wird im dritten Byte erkannt.",
+        "Nein, die Klasse wird durch die letzten beiden Bytes bestimmt.",
+        "Ja, die Klasse wird im zweiten Byte erkannt."
+    ],
+    "Was sind die Anzahl der Hosts der Klasse B ?": [
+        "128 Hosts",
+        "16.777.214 Hosts",
+        "256 Hosts"
+    ],
+    "Was verstehen Sie unter Klassenlosen Netzen (CIDR) in Bezug auf Maske?": [
+        "CIDR verwendet immer eine /8-Subnetzmaske.",
+        "CIDR verwendet eine feste 32-Bit-Subnetzmaske.",
+        "CIDR verwendet keine Subnetzmaske."
+    ],
+    "Welche Organisation vergibt die IPv4-Adressen in Deutschland?": [
+        "Deutsche Telekom",
+        "Bundesnetzagentur",
+        "Deutsches Institut f\u00fcr Normung (DIN)"
+    ],
+    "Welche Aufgabe hat DHCP-Dienst?": [
+        "Verschl\u00fcsselung der Netzwerkdaten\u00fcbertragung",
+        "\u00dcberwachung der Netzwerkbandbreite",
+        "\u00dcbermittlung von IP-Adressen und Netzwerkkonfigurationen an Clients"
+    ],
+    "Welche Komponente des Netzes organisiert Paketaustausch zwischen unterschiedlichen Netzen?": [
+        "Switch",
+        "Modem",
+        "USB Stick"
+    ],
+    "Was sind die Algorithmen des dynamischen Routings?": [
+        "Static Routing",
+        "MAC-Adressierung",
+        "TCP/IP"
+    ],
+    "Welche Aufgabe hat die Routing-Tabelle?": [
+        "Verschl\u00fcsselung der Netzwerkkommunikation",
+        "Verwaltung der physischen Verbindung zwischen Netzwerkger\u00e4ten",
+        "Zuordnung von MAC-Adressen zu IP-Adressen"
+    ],
+    "Was ist CSMA/CD?": [
+        "Ein Verschl\u00fcsselungsalgorithmus f\u00fcr Netzwerkkommunikation",
+        "Ein Protokoll zur Adressaufl\u00f6sung in Netzwerken",
+        "Ein Verfahren zur automatischen Konfiguration von Netzwerkger\u00e4ten"
+    ],
+    "Auf welcher Schicht agiert TCP?": [
+        "Schicht 1 (Physische Schicht)",
+        "Schicht 2 (Sicherungsschicht)",
+        "Schicht 8 (Anwenderschicht)"
+    ],
+    "Was ist MTU?": [
+        "Multi-Thread Unit",
+        "Media Transfer Unit",
+        "Media Thread User"
+    ],
+    "Was unterscheidet TCP von UDP. Was sind Unterschiede?": [
+        "Beide Protokolle sind identisch und unterscheiden sich nicht.",
+        "TCP verwendet eine verbindungslose Kommunikation, w\u00e4hrend UDP eine verbindungsorientierte Kommunikation verwendet.",
+        "TCP ist schneller als UDP aufgrund der \u00dcberpr\u00fcfung der Datenintegrit\u00e4t."
     ]
 }
