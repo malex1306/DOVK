@@ -34,6 +34,7 @@ class QuizApp(QWidget):
         self.current_question = 0
         self.num_correct = 0
         self.user_name = ""
+        self.correct_questions = {}  # Dictionary zum Zählen der richtigen Antworten
 
         self.initUI()
 
@@ -244,9 +245,20 @@ class QuizApp(QWidget):
         question, correct_answer = self.questions[self.current_question]
 
         if answer == correct_answer:
-            self.num_correct += 1
-            self.update_score_menu()
-            QMessageBox.information(self, "Richtig!", "⭐ Richtig! ⭐")
+            #json file erstellen
+            
+            if question in self.correct_questions:
+                self.correct_questions[question] += 1
+            else:
+                self.correct_questions[question] = 1
+
+            if self.correct_questions[question] >= 3:
+                self.current_question += 1  # Frage überspringen, wenn schon 3-mal richtig beantwortet
+            else:
+                self.num_correct += 1
+                self.update_score_menu()
+                QMessageBox.information(self, "Richtig!", "⭐ Richtig! ⭐")
+
         else:
             QMessageBox.information(self, "Falsch", f"Die richtige Antwort ist:\n{correct_answer!r}")
 
