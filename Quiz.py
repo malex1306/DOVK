@@ -51,7 +51,9 @@ class QuizApp(QWidget):
         self.status_bar = QStatusBar(self)
         self.status_bar.showMessage("v.0.1")
 
-        icon = QIcon('/mnt/data/image.png')
+        self.setWindowIcon(QIcon(os.path.join(base_path, 'book.ico')))
+
+        icon = QIcon('book.ico')
 
         self.start_action = QAction(icon, "Start", self)
         self.start_action.triggered.connect(self.show_start_menu)
