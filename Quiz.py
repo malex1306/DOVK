@@ -230,7 +230,6 @@ class QuizApp(QWidget):
             if self.current_question < self.num_questions:
                 # Nur wenn wir uns im Quizmodus befinden
                 self.submit_answer()
-                self.current_question += 1
                 if self.current_question < self.num_questions:
                     self.show_question()
 
