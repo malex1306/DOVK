@@ -3,7 +3,7 @@ import random
 import json
 import os
 from PyQt5.QtWidgets import (QApplication, QWidget, QVBoxLayout, QHBoxLayout, QLabel, QLineEdit,
-                             QPushButton, QRadioButton, QButtonGroup, QMessageBox, QMenuBar, QMenu, QAction)
+                             QPushButton, QRadioButton, QButtonGroup, QMessageBox, QMenuBar, QMenu, QAction, QStatusBar)
 from PyQt5.QtGui import QIcon
 
 # Basisverzeichnis ermitteln
@@ -47,6 +47,9 @@ class QuizApp(QWidget):
 
         self.score_menu = QMenu("Score", self)
         self.menu_bar.addMenu(self.score_menu)
+
+        self.status_bar = QStatusBar(self)
+        self.status_bar.showMessage("v.0.1")
 
         icon = QIcon('/mnt/data/image.png')
 
