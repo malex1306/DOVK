@@ -658,5 +658,45 @@
         "FTP und Telnet",
         "HTTP und HTTPS",
         "SSH und SCP"
+    ],
+    "Wie lang ist IPv6-Adresse?": [
+        "32 Bit",
+        "64 Bit",
+        "16 Bit"
+    ],
+    "Wie ist IPv6 Adresse Aufgebaut?": [
+        "In vier Hexadezimal-Bl\u00f6cken, getrennt durch Doppelpunkte (z.B. 1A2B:3C4D:5E6F:7G8H)",
+        "In zwei Dezimal-Bl\u00f6cken, getrennt durch Punkte (z.B. 123.456.789.012)",
+        "Als Kombination aus Hexadezimal- und Dezimal-Bl\u00f6cken (z.B. A1B2:3456:7890"
+    ],
+    "Wie hei\u00dft ping-Befehl bei IPv6?": [
+        "ping6",
+        "ip6ping",
+        "ping -ipv6"
+    ],
+    "Aus welchem Bereich stammen bei IPv6 die selbstzugewiesenen Adressen?": [
+        "Multicast-Bereich",
+        "Global Unicast-Bereich",
+        "Link Unicast-Bereich"
+    ],
+    "Aus welchem Bereich stammen bei IPv6 die Local Unicast Adressen?": [
+        "Global Unicast-Bereich",
+        "Multicast-Bereich",
+        "Global Unique Local-Berreich"
+    ],
+    "Welche Bedeutung hat die IPv6-Adresse ::1 ?": [
+        "Broadcast-Adresse im lokalen Netzwerk",
+        "Reservierte Adresse f\u00fcr zuk\u00fcnftige Nutzung",
+        "Loopback-Adresse f\u00fcr alle Netzwerkschnittstellen"
+    ],
+    "Wie wird Tunelling-Adresse gekennzeichnet?": [
+        "Durch eine Adresse aus dem Bereich 192.168.x.x",
+        "Durch eine Adresse aus dem Bereich 10.x.x.x",
+        "Durch eine Adresse aus dem Bereich 172.16.x.x bis 172.31.x.x"
+    ],
+    "Wie wird Multicast-Adresse gekennzeichnet?": [
+        "Durch eine Adresse aus dem Bereich 192.168.x.x",
+        "Durch eine Adresse aus dem Bereich 10.x.x.x",
+        "Durch eine Adresse aus dem Bereich 172.16.x.x bis 172.31.x.x"
     ]
 }
