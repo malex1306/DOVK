@@ -141,13 +141,14 @@ class QuizApp(QWidget):
         self.start_button.clicked.connect(self.show_name_and_questions_input)
         button_layout.addWidget(self.start_button)
 
+        self.quit_button = QPushButton("Quit", self)
+        self.quit_button.clicked.connect(self.close)
+        button_layout.addWidget(self.quit_button)
+
         self.about_button = QPushButton("About App", self)
         self.about_button.clicked.connect(self.show_about)
         button_layout.addWidget(self.about_button)
 
-        self.quit_button = QPushButton("Quit", self)
-        self.quit_button.clicked.connect(self.close)
-        button_layout.addWidget(self.quit_button)
 
         button_widget = QWidget()
         button_widget.setLayout(button_layout)
