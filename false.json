@@ -698,5 +698,10 @@
         "Durch eine Adresse aus dem Bereich 192.168.x.x",
         "Durch eine Adresse aus dem Bereich 10.x.x.x",
         "Durch eine Adresse aus dem Bereich 172.16.x.x bis 172.31.x.x"
+    ],
+    "Bitte nennen Sie die vier Hauptgruppen von Twisted-Pair-Kabeln (TP-Kabeln)?": [
+        "Cat 1, Cat 2, Cat 3, Cat 4",
+        "UTP, FTP, STP, S/FTP",
+        "Cat 5, Cat 6, Cat 6a, Cat 7"
     ]
 }
