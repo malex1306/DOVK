@@ -124,5 +124,19 @@
     "Welche Notation wird als Ersatz der Maske bei CIDR verwendet?": "255.255.255.192",
     "Sie entscheiden sich f\u00fcr die Netzadresse 192.168.221.0 .  Sie m\u00fcssen 13 Teilnetze erstellen. Wie viele Adressen d\u00fcrfen Sie maximal pro Teilnetz vergeben?": "14",
     "Sie entscheiden sich f\u00fcr die Netzadresse 192.168.17.0 .  Im Raum(1 Raum =1 Teilnetz) d\u00fcrfen max. 10 Rechner mit eigenem IP stehen. Wie viele Teilnetze maximal d\u00fcrfen Sie einrichten?": "16",
-    "Sie sollen ein internes Netz mit 80 Teilnetzen und jeweils 50 Rechner pro Teilnetz mit Adressen versehen. Welche privaten Adressen kommen in Frage?": "Klasse A, Klasse B"
+    "Sie sollen ein internes Netz mit 80 Teilnetzen und jeweils 50 Rechner pro Teilnetz mit Adressen versehen. Welche privaten Adressen kommen in Frage?": "Klasse A, Klasse B",
+    "Wie k\u00f6nnen Sie die IP-Adresse Ihres Rechners unter Windows ermitteln?": "cmd --> ipconfig",
+    "Wie k\u00f6nnen Sie die IP-Adresse Ihres Rechners unter Linux ermitteln?": "ifconfig",
+    "Mit welchem Befehl werden MAC- und IP-Adresse gemeinsam gezeigt?": "arp -a",
+    "Was passiert bei dem Befehl getmac/v ein?": "Verbindungsspezifisches DNS-Suffix wird angezeigt",
+    "Vergleichen Sie bez\u00fcglich von MAC- und IP-Adressen die Ausgabe von ipconfig /all und  arp \u2013a. Was f\u00e4llt Ihnen auf?": "ipconfig/all: Mac , arp-a: mac mit der eine Verbundung besteht",
+    "Welche Programme benutzen ICMP?": "Ping, Traceroute",
+    "Wie lang ist IPv6-Adresse?": "128 Bit",
+    "Wie ist IPv6 Adresse Aufgebaut?": "8 Parts zu je 16 Bits, Hexadezimal durch doppelpunkt getrennt",
+    "Wie hei\u00dft ping-Befehl bei IPv6?": "ping",
+    "Aus welchem Bereich stammen bei IPv6 die selbstzugewiesenen Adressen?": "fe80::/10",
+    "Aus welchem Bereich stammen bei IPv6 die Local Unicast Adressen?": "fd00::/8",
+    "Welche Bedeutung hat die IPv6-Adresse ::1 ?": "Loopback-Adresse",
+    "Wie wird Tunelling-Adresse gekennzeichnet?": "2002::/16",
+    "Wie wird Multicast-Adresse gekennzeichnet?": "ff00::/8"
 }
