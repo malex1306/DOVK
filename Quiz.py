@@ -3,8 +3,7 @@ import random
 import json
 import os
 from PyQt5.QtCore import Qt
-from PyQt5.QtWidgets import (QApplication, QWidget, QVBoxLayout, QHBoxLayout, QLabel, QLineEdit,
-                             QPushButton, QRadioButton, QButtonGroup, QMessageBox, QMenuBar, QMenu, QAction, QStatusBar)
+from PyQt5.QtWidgets import (QApplication, QWidget, QVBoxLayout, QHBoxLayout, QLabel, QLineEdit,QPushButton, QRadioButton, QButtonGroup, QMessageBox, QMenuBar, QMenu, QAction, QStatusBar)
 from PyQt5.QtGui import QIcon
 from converter import update_json
 
