@@ -47,5 +47,19 @@ def make_json(dict,folder_path='',file_name='data.json'):
     with open(file_path, 'w') as outfile:
         json.dump(dict, outfile, indent=4)
 
+def update_json(question, folder_path='', file_name='progress.json'):
+    """Aktualisiert die JSON-Datei, indem der Zähler für die gegebene Frage erhöht wird"""
+    file_path = os.path.join(folder_path, file_name)
+    if os.path.exists(file_path):
+        with open(file_path, 'r') as infile:
+            try:
+                existing_data = json.load(infile)
+            except json.JSONDecodeError:
+                existing_data = {}
+    else:
+        existing_data = {}
+
+    return existing_data.get(question, 0) >= 3
+
 # Uncomment to generate new data.json
 # make_json(write_qa_dictionary())
