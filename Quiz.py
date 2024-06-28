@@ -197,6 +197,7 @@ class QuizApp(QWidget):
         self.clear_layout()
 
         self.question_label = QLabel("", self)
+        self.question_label.setWordWrap(True)
         self.layout.addWidget(self.question_label)
 
         self.answer_group = QButtonGroup(self)
