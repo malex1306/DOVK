@@ -76,7 +76,8 @@ class QuizApp(QWidget):
         self.setStyleSheet("""
             QWidget {
                 background-color: #2E2E2E;
-                color: #FFFFFF;
+                color: #bfbfbf;
+                font-weight: bold;
                 font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
             }
             QLabel {
@@ -85,11 +86,12 @@ class QuizApp(QWidget):
             }
             QLineEdit, QRadioButton, QPushButton {
                 background-color: #3E3E3E;
-                color: #FFFFFF;
+                color: #bfbfbf;
                 border: 1px solid #5E5E5E;
                 border-radius: 5px;
                 padding: 10px;
                 font-size: 15px;
+                font-weight: normal;
             }
             QLineEdit {
                 padding: 5px;
@@ -232,7 +234,7 @@ class QuizApp(QWidget):
             options = [correct_answer] + distractors
             random.shuffle(options)
 
-            self.question_label.setText(f"Frage {self.current_question + 1}: \n{question}")
+            self.question_label.setText(f"Frage {self.current_question + 1}: \n\n{question}")
 
             for rb, option in zip(self.radio_buttons, options):
                 rb.setText(option)
