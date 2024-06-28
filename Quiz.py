@@ -6,6 +6,7 @@ from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import (QApplication, QWidget, QVBoxLayout, QHBoxLayout, QLabel, QLineEdit,
                              QPushButton, QRadioButton, QButtonGroup, QMessageBox, QMenuBar, QMenu, QAction, QStatusBar)
 from PyQt5.QtGui import QIcon
+from converter import update_json
 
 # Basisverzeichnis ermitteln
 base_path = os.path.dirname(os.path.abspath(__file__))
@@ -34,7 +35,7 @@ class QuizApp(QWidget):
         self.current_question = 0
         self.num_correct = 0
         self.user_name = ""
-        self.correct_questions = {}  # Dictionary zum Zählen der richtigen Antworten
+        self.progress_file = 'progress.json'
 
         self.initUI()
 
@@ -141,13 +142,13 @@ class QuizApp(QWidget):
         self.start_button.clicked.connect(self.show_name_and_questions_input)
         button_layout.addWidget(self.start_button)
 
-        self.about_button = QPushButton("About App", self)
-        self.about_button.clicked.connect(self.show_about)
-        button_layout.addWidget(self.about_button)
-
         self.quit_button = QPushButton("Quit", self)
         self.quit_button.clicked.connect(self.close)
         button_layout.addWidget(self.quit_button)
+
+        self.about_button = QPushButton("About App", self)
+        self.about_button.clicked.connect(self.show_about)
+        button_layout.addWidget(self.about_button)
 
         button_widget = QWidget()
         button_widget.setLayout(button_layout)
@@ -214,17 +215,27 @@ class QuizApp(QWidget):
         self.show_question()
 
     def show_question(self):
+        # Überprüfen, ob alle Fragen durchlaufen wurden
+        if self.current_question >= len(self.questions):
+            self.show_result()
+            return
+
         question, correct_answer = self.questions[self.current_question]
-        distractors = DISTRACTORS.get(question, [])
+        should_skip = update_json(question, file_name=self.progress_file)
 
-        options = [correct_answer] + distractors
-        random.shuffle(options)
+        if should_skip:
+            self.current_question += 1
+            self.show_question()  # Rekursive Aufruf, um zur nächsten Frage zu gehen
+        else:
+            distractors = DISTRACTORS.get(question, [])
+            options = [correct_answer] + distractors
+            random.shuffle(options)
 
-        self.question_label.setText(f"Frage {self.current_question + 1}: {question}")
+            self.question_label.setText(f"Frage {self.current_question + 1}: \n{question}")
 
-        for rb, option in zip(self.radio_buttons, options):
-            rb.setText(option)
-            rb.setChecked(False)
+            for rb, option in zip(self.radio_buttons, options):
+                rb.setText(option)
+                rb.setChecked(False)
 
     def keyPressEvent(self, event):
         if event.key() == Qt.Key_Return or event.key() == Qt.Key_Enter:
@@ -245,19 +256,29 @@ class QuizApp(QWidget):
         question, correct_answer = self.questions[self.current_question]
 
         if answer == correct_answer:
-            #json file erstellen
-            
-            if question in self.correct_questions:
-                self.correct_questions[question] += 1
+            # Erhöhe den Zähler nur bei einer richtigen Antwort
+            file_path = os.path.join('', self.progress_file)
+            if os.path.exists(file_path):
+                with open(file_path, 'r') as infile:
+                    try:
+                        existing_data = json.load(infile)
+                    except json.JSONDecodeError:
+                        existing_data = {}
             else:
-                self.correct_questions[question] = 1
+                existing_data = {}
 
-            if self.correct_questions[question] >= 3:
-                self.current_question += 1  # Frage überspringen, wenn schon 3-mal richtig beantwortet
+            if question in existing_data:
+                existing_data[question] += 1
             else:
-                self.num_correct += 1
-                self.update_score_menu()
-                QMessageBox.information(self, "Richtig!", "⭐ Richtig! ⭐")
+                existing_data[question] = 1
+
+            with open(file_path, 'w') as outfile:
+                json.dump(existing_data, outfile, indent=4)
+
+            self.num_correct += 1
+            self.update_score_menu()
+            QMessageBox.information(self, "Richtig!", "⭐ Richtig! ⭐")
+
 
         else:
             QMessageBox.information(self, "Falsch", f"Die richtige Antwort ist:\n{correct_answer!r}")
