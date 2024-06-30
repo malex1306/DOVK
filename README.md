@@ -22,7 +22,8 @@ https://www.python.org/downloads/
 #### Install Qt5
 
 - Open windows command line as administrator: **win + R** -> enter cmd and press shift + Ctrl while clicking OK
-- Enter: `pip install PyQt5`
+- Enter: `pip install PyQt5`,
+- Enter: `pip install python-docx`
 
 #### Run App
 
