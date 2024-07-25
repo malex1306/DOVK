@@ -7,6 +7,7 @@ from PyQt5.QtWidgets import (QApplication, QWidget, QVBoxLayout, QHBoxLayout, QL
 from PyQt5.QtGui import QIcon
 from converter import update_json
 import re
+from PyQt5.QtGui import QPixmap
 
 # Basisverzeichnis ermitteln
 base_path = os.path.dirname(os.path.abspath(__file__))
@@ -289,9 +290,12 @@ class QuizApp(QWidget):
 
             self.num_correct += 1
             self.update_score_menu()
-            QMessageBox.information(self, "Richtig!", "⭐ Richtig! ⭐")
+            
+            msg = QMessageBox(self)
+            msg.setWindowTitle("Richtig!")
+            msg.setIconPixmap(QPixmap("data\images\Adam.jpg"))
 
-
+            msg.exec_()
         else:
             QMessageBox.information(self, "Falsch", f"Die richtige Antwort ist:\n{correct_answer!r}")
 
