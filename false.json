@@ -98,5 +98,55 @@
         "Hardcoding",
         "Manuelles Schreiben von Code",
         "Vermeidung von Kommentaren im Code"
+    ],
+    "Bild1 Was fehlt diesem Code in der L\u00fccke?": [
+        "input",
+        "number",
+        "elif"
+    ],
+    "Bild2 Was fehlt diesem Code in der L\u00fccke?": [
+        "]",
+        "}",
+        ":"
+    ],
+    "Bild3 Was fehlt diesem Code in der L\u00fccke?": [
+        "[year]",
+        "(year)",
+        "'year'"
+    ],
+    "Bild4 Was fehlt diesem Code in der L\u00fccke?": [
+        "boolean",
+        "string",
+        "float"
+    ],
+    "Bild5 Was fehlt diesem Code in der L\u00fccke?": [
+        "for",
+        "elif",
+        "while"
+    ],
+    "Bild6 Was fehlt diesem Code in der L\u00fccke?": [
+        "!=",
+        "-+",
+        "&"
+    ],
+    "Bild7 Was fehlt diesem Code in der L\u00fccke?": [
+        "weight",
+        "isElegible",
+        "float"
+    ],
+    "Bild8 Was fehlt diesem Code in der L\u00fccke?": [
+        "currentMax",
+        "currentMin",
+        "range"
+    ],
+    "Bild9 Was fehlt diesem Code in der L\u00fccke?": [
+        "print",
+        "len",
+        "isfile"
+    ],
+    "Bild10 Was fehlt diesem Code in der L\u00fccke?": [
+        "while",
+        "def",
+        "add:"
     ]
 }

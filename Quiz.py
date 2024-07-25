@@ -6,6 +6,7 @@ from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import (QApplication, QWidget, QVBoxLayout, QHBoxLayout, QLabel, QLineEdit,QPushButton, QRadioButton, QButtonGroup, QMessageBox, QMenuBar, QMenu, QAction, QStatusBar)
 from PyQt5.QtGui import QIcon
 from converter import update_json
+import re
 
 # Basisverzeichnis ermitteln
 base_path = os.path.dirname(os.path.abspath(__file__))
@@ -197,6 +198,15 @@ class QuizApp(QWidget):
     def show_question_frame(self):
         self.clear_layout()
 
+        # Create a horizontal layout for the "Bilder" button and add it to the top right
+        top_layout = QHBoxLayout()
+        top_layout.addStretch()
+
+        self.image_button = QPushButton("Bilder", self)
+        self.image_button.clicked.connect(self.open_image)
+        top_layout.addWidget(self.image_button)
+        self.layout.addLayout(top_layout)
+
         self.question_label = QLabel("", self)
         self.question_label.setWordWrap(True)
         self.layout.addWidget(self.question_label)
@@ -317,6 +327,24 @@ class QuizApp(QWidget):
                         child.widget().deleteLater()
             elif item.widget():
                 item.widget().deleteLater()
+
+    def open_image(self):
+        # Get the current question text
+        question, _ = self.questions[self.current_question]
+        image_reference = self.extract_image_reference(question)
+        if image_reference:
+            image_path = os.path.join(base_path, "data/images", f"{image_reference}.png")
+            if os.path.isfile(image_path):
+                os.startfile(image_path)
+        else:
+            os.startfile("data\images\donttouchme.jpg")
+
+    def extract_image_reference(self, question):
+        # Extract image reference like Bild1, Bild2, etc. from the question
+        match = re.search(r'Bild(\d+)', question)
+        if match:
+            return f"Bild{match.group(1)}"
+        return None
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)

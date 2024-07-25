@@ -18,5 +18,15 @@
     "Was beschreibt das Prinzip der \"Datenkapselung\"?": "Das Verbergen der internen Zust\u00e4nde und das Bereitstellen von Schnittstellen",
     "Was bedeutet der Begriff \"Iteration\" in der Programmierung?": "Das mehrfache Durchlaufen eines bestimmten Codeabschnitts",
     "Welche der folgenden Kontrollstrukturen wird verwendet, um Entscheidungen zu treffen?": "Bedingte Anweisung",
-    "Welche Methode wird verwendet, um die Wiederverwendbarkeit von Code zu erh\u00f6hen?": "Verwendung von Bibliotheken und Modulen"
+    "Welche Methode wird verwendet, um die Wiederverwendbarkeit von Code zu erh\u00f6hen?": "Verwendung von Bibliotheken und Modulen",
+    "Bild1 Was fehlt diesem Code in der L\u00fccke?": "print",
+    "Bild2 Was fehlt diesem Code in der L\u00fccke?": ")",
+    "Bild3 Was fehlt diesem Code in der L\u00fccke?": "{year}",
+    "Bild4 Was fehlt diesem Code in der L\u00fccke?": "int",
+    "Bild5 Was fehlt diesem Code in der L\u00fccke?": "if",
+    "Bild6 Was fehlt diesem Code in der L\u00fccke?": "==",
+    "Bild7 Was fehlt diesem Code in der L\u00fccke?": "message",
+    "Bild8 Was fehlt diesem Code in der L\u00fccke?": "number",
+    "Bild9 Was fehlt diesem Code in der L\u00fccke?": "input",
+    "Bild10 Was fehlt diesem Code in der L\u00fccke?": "else:"
 }
