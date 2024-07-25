@@ -1,707 +1,102 @@
 {
-    "Welche Schichten des ISO/OSI-Referenzmodels bilden das Transportsystem?": [
-        "Anwendungsschicht (Application Layer)",
-        "Pr\u00e4sentationsschicht (Presentation Layer)",
-        "Sitzungsschicht (Session Layer)"
-    ],
-    "Welche Schichten des ISO/OSI-Referenzmodels bilden das Anwendungssystem?": [
-        "Netzwerkschicht",
-        "Baumschicht",
-        "Sternf\u00f6rmigeschicht"
-    ],
-    "Mit wie vielen weiteren Schichten kann eine Schicht des OSI-Referenzmodells kommunizieren?": [
-        "Mit einer Schicht",
-        "Mit keiner Schicht",
-        "Mit allen Schichten"
-    ],
-    "Die Definition von notwendigen physikalischen Schnittstellen ist die Aufgabe eines OSI-Standards. Dazu geh\u00f6ren etwa die ___________, _________ bei Stecker und Buchsen. Bitte erg\u00e4nzen Sie den fehlenden Begriff?": [
-        "Pinbelegungen",
-        "LWL",
-        "HDMI"
-    ],
-    "Welche Schicht ist in der Netzwerkkarte abgebildet?": [
-        "Anwendungsschicht",
-        "Sitzungsschicht (Session Layer)",
-        "Networklayer"
-    ],
-    "Was ist CRC?": [
-        "CRC steht f\u00fcr \u201cComputer Random Code",
-        "CRC ist ein Verschl\u00fcsselungsalgorithmus",
-        "CRC ist eine Methode zur Datenkompression"
-    ],
-    "Unter welchen Bedingungen ist der Einsatz von kleineren data frames sinnvoller als der von gro\u00dfen data frames?": [
-        "sind effizienter",
-        "sicherer",
-        "besser"
-    ],
-    "Wie nennt man ein einfaches Verfahren zur Fehlerkorrektur auf der OSI-Schicht 2?": [
-        "CRC, sie ist eine Methode zur Datenkompression",
-        "SQL",
-        "Verschl\u00fcsselungsalgorithmus"
-    ],
-    "Wann ist die Flusskontrolle bzw. Flusssteuerung notwendig?": [
-        "f\u00fcr eine Verschl\u00fcsselungsmethode",
-        "verhindert, dass Daten zu langsam \u00fcbertragen werden",
-        "ist nur auf der Anwendungsschicht relevant"
-    ],
-    "Ein Kriterium f\u00fcr die Verbindungsorientierung der Schicht 4 ist  die Erhaltung der Sequenzreihenfolge der versendeten Datenpakete. Welche M\u00f6glichkeit hat das Protokoll dieser Schicht, falls ein Datenpaket durch ein anderes \u00fcberholt wird?": [
-        "TCP verwirft das \u00fcberholte Paket",
-        "TCP sendet das \u00fcberholte Paket an die Anwendungsschicht zur\u00fcck",
-        "TCP verwendet eine zuf\u00e4llige Reihenfolge f\u00fcr die Paket\u00fcbertragung"
-    ],
-    "Wie nennt man die Schicht des OSI-Referenzmodells, die neben dem Auf- und Abbau von Verbindungen die Dialogsteuerung \u00fcbernimmt?": [
-        "Die Sitzungsschicht ist f\u00fcr die physische Verbindung verantwortlich",
-        "Die Sitzungsschicht verschl\u00fcsselt die Daten\u00fcbertragung.",
-        "Die Sitzungsschicht ist nur f\u00fcr die Anwendungsprotokolle relevant."
-    ],
-    "Welchen Vorteil bietet ein Protokoll, das auf mehreren OSI-Ebenen verwendet werden kann?": [
-        "Das Protokoll erm\u00f6glicht dadurch eine schnellere Daten\u00fcbertragung",
-        "Es vereinfacht die Netzwerkkonfiguration",
-        "Das Protokoll erh\u00f6ht die Sicherheit."
-    ],
-    "Aus welchen Unterschichten besteht Sicherungsschicht?": [
-        "TCP & LCP",
-        "OSI & ISO",
-        "LAN & Wlan"
-    ],
-    "Welche Ger\u00e4te arbeiten auf den Schichten 1 und 2?": [
-        "Schicht 1: Prozessor",
-        "Schicht 1: Grafikkarte Schicht 2: Router",
-        "Schicht 1: RAM Schicht 2: peripherie"
-    ],
-    "Welche Ger\u00e4te arbeiten auf der Schicht 1?": [
-        "Mainboard & Protessor",
-        "Prozessor & RAM",
-        "DLINK"
-    ],
-    "Welche Ger\u00e4te arbeiten auf der Schicht 3?": [
-        "TCP",
-        "ARQ",
-        "LLC"
-    ],
-    "Welche Ger\u00e4te arbeiten auf den Schichten 1 bis 7?": [
-        "Satelite",
-        "Funkradio",
-        "Wasserk\u00fchlung"
-    ],
-    "Wie hei\u00dfen die Pakete auf den Schichten 1 bis 7?": [
-        "Gateway",
-        "Medienkonverter",
-        "Layers"
-    ],
-    "Wie hei\u00dfen die Adressen auf den Schichten 2 bis 4 und wie lang sind sie?": [
-        "Mac Adressen:212-Bit",
-        "IPv4: 16-Bit",
-        "IPv6: 92-Bit"
-    ],
-    "Wie hei\u00dft die Verbindung der IP-Adresse mit der Portnummer (z.B. 123.23.25.8:80  IPv4)?": [
-        "IPv4",
-        "Sockel",
-        "PeerToPeer"
-    ],
-    "Was unterscheidet die physikalische Topologie von der logischen Topologie?": [
-        "Der Steckplatz",
-        "Die Sockel",
-        "Die Layer"
-    ],
-    "Nennen Sie die bekannten Topologien?": [
-        "Kreistopologie",
-        "Kreuztopologie",
-        "PeerToPeer"
-    ],
-    "Welche dieser Topologien w\u00fcrden Sie der Firma BITLC vorschlagen (zwei Geb\u00e4uden mit Klassenr\u00e4umen)?": [
-        "Kreuztopologie",
-        "Zahnradtopologie",
-        "Kreistopologie"
-    ],
-    "Hub ist physikalisch ein ______ und logisch ein ______ ?": [
-        "Buchse, Bahn",
-        "Kreuz, lienar",
-        "Kreis, Ring"
-    ],
-    "Token-Ring-Hub ist physikalisch ein _______ und logisch ein _______?": [
-        "Kreis, Stern",
-        "Ring, Kreis",
-        "Kreuz, Ring"
-    ],
-    "Topologisch gesehen besteht ein Netzwerk aus Knoten (nodes) und Verbindungen (connections). \nIst diese Aussage richtig?": [
-        "Nein",
-        "Nur in der Baumtopologie",
-        "Ja ohne Sterntopologie"
-    ],
-    "Welche Topologie ist im Internet sichtbar?": [
-        "sternf\u00f6rmige Topologie",
-        " Ringtopologie",
-        "hierarchische Baumtopologie"
-    ],
-    "Nennen sie Nachteile der Bus-Topologie?": [
-        "Risiko von Datenverlust",
-        "Niedrige Anf\u00e4lligkeit",
-        "singende Anzahl"
-    ],
-    "Welche Netze verbinden einzelne Netze zu einem Gesamtnetz?": [
-        "Frontbone Netze",
-        "Mash Netze",
-        "hierarchische Netze"
-    ],
-    "Beschreiben Sie Das Personal Area Network (PAN)?": [
-        "PAN(50m)",
-        "PAN(200m)",
-        "Pan(500m)"
-    ],
-    "Wie gro\u00df ist LAN?": [
-        "mehrere Meter",
-        "mehrere 1000 Meter",
-        "mehrer Kilometer"
-    ],
-    "Was unterscheidet WAN vom GAN?": [
-        "GAN ist eine Weiterentwicklung von LAN",
-        "WAN ist auf st\u00e4dtische Bereiche beschr\u00e4nkt",
-        "WAN und GAN sind synonyme Begriffe"
-    ],
-    "Nennen Sie Argumente f\u00fcr die Einf\u00fchrung des Netzwerkes?": [
-        "Netzwerke verringern die Sicherheit",
-        "Netzwerke verlangsamen die Datenverarbeitung",
-        "Netzwerke sind zu teuer und unwirtschaftlich"
-    ],
-    "Nennen Sie drei Arten von Netzwerksystemen in IT-Systemen?": [
-        "NAS",
-        "Router",
-        "backbone Netze"
-    ],
-    "Nennen Sie f\u00fcnf Netzwerkarchitekturen?": [
-        "Hohe Datenschicht",
-        "NAS-Server",
-        "WAN"
-    ],
-    "Welche Aufgabe hat Medienkonverter?": [
-        "Setzt \u00dcbertragungssignale zweier Unterschiedlicher Medien auf Schicht 2 des ISO/OSI Modells um",
-        "Setzt \u00dcbertragungssignale zweier Unterschiedlicher Medien auf Schicht 3 des ISO/OSI Modells um",
-        "Setzt \u00dcbertragungssignale zweier Unterschiedlicher Medien auf Schicht 4 des ISO/OSI Modells um"
-    ],
-    "Ist die folgende Aussage richtig?": [
-        "Netzwerkkarte wandelt nicht parallel empfangene Daten in seriellen Datenstrom",
-        "Prozessor wandelt parallel empfangene Daten in seriellen Datenstrom",
-        "Netzwerkkarte wandelt parallel empfangene Mails in seriellen Datenstrom"
-    ],
-    "Nennen Sie zwei Typen der Netzwerkkarten(NIC)?": [
-        "Kohenstoff CBNIC",
-        "Gravitationsbasiert G-NIC",
-        "Photonische P-NIC"
-    ],
-    "Beschreiben Sie die Aufgabe des Repeaters?": [
-        "Ein Repeater dient dazu, Netzwerkdaten zu verschl\u00fcsseln",
-        "die Bandbreite eines Netzwerks zu reduzieren, um \u00dcberlastungen zu vermeiden",
-        "die Geschwindigkeit eines Netzwerks zu drosseln, um die Energieeffizienz zu verbessern"
-    ],
-    "Was verbindet Hub und Repeater?": [
-        "Hub ist ein Switch",
-        "Hub ist eine Bridge",
-        "Hub ist ein Router"
-    ],
-    "Beschreiben Sie die Aufgabe der Bridge?": [
-        "Bridge verbessert die Leistung",
-        "Bridge k\u00fchlt",
-        "Bridge verbessert die Geschwindigkeit"
-    ],
-    "Wie arbeitet Spanning Tree Protokoll?": [
-        "Router und Netwerkkabek",
-        "Router und Switches",
-        "Netwerkkabek und Bridges"
-    ],
-    "Ist Switch ein Multiport-Bridge?": [
-        "Nein",
-        "Nur die neuen Modelle",
-        "Waren Sie fr\u00fcher mal"
-    ],
-    "Welche Zusatzfunktion haben einige Switches?": [
-        "drahtlose Access Points um WLAN-Signale zu verst\u00e4rken",
-        "VoIP-Anrufe direkt \u00fcber das Netzwerk zu verwalten und zu priorisieren.",
-        "automatisch Netzwerkfehler zu beheben und die Verbindung wiederherzustellen, ohne menschliches Eingreifen"
-    ],
-    "Welche Hauptaufgabe haben Router?": [
-        "IP-Adressen verschl\u00fcsseln",
-        "Computerviren entfernen",
-        "erstellen Sicherungskopien der Netzwerkpakete"
-    ],
-    "Welche weiteren Aufgaben haben Router?": [
-        "Die Signalst\u00e4rke von WLAN-Netzwerken zu erh\u00f6hen",
-        "Alle Ger\u00e4te im Netzwerk regelm\u00e4\u00dfig auf Sicherheitsupdates zu \u00fcberpr\u00fcfen",
-        "Benutzeraktivit\u00e4ten im Netzwerk zu \u00fcberwachen und Nutzerstatistiken erstellen"
-    ],
-    "Nennen Sie die bekannten Routing-Verfahren?": [
-        "Linear",
-        "Dynamisches ",
-        "Statisches"
-    ],
-    "Wann werden Gateways eingesetzt?": [
-        "Um den Datenverkehr zwischen zwei Netzwerken zu beschleunigen",
-        "F\u00fcr schnelleren Upload",
-        "nur in gro\u00dfen Unternehmensnetzwerken"
-    ],
-    "Um den Kern eines Koaxialkabels befindet sich ein Mantel aus einem nicht leitenden Material. Wie nennt man diese nichtleitende Schicht in der Elektronik?": [
-        "Isolator",
-        "Modulator",
-        "Transistor"
-    ],
-    "Je h\u00f6her die \u00fcbertragene Frequenz auf einem Koaxialkabel ist, umso weniger Informationen k\u00f6nnen letztendlich in einer Sekunde \u00fcbertragen werden. Ist diese Aussage zutreffend?": [
-        "Ja, diese Aussage ist korrekt, weil h\u00f6here Frequenzen mehr St\u00f6rungen verursachen.",
-        "Ja, diese Aussage ist korrekt, weil die Signalamplitude bei h\u00f6heren Frequenzen abnimmt.",
-        "Ja, diese Aussage ist korrekt, weil h\u00f6here Frequenzen weniger Bandbreite bieten."
-    ],
-    "Eine wichtige physikalische Eigenschaft des Kabels ist sein D\u00e4mpfungsverhalten. In welcher Einheit wird dieses Verhalten gemessen?": [
-        "Volt (V)",
-        "Hertz (Hz)",
-        "Ampere (A)"
-    ],
-    "Welches Werkzeug ben\u00f6tigen Sie, um das Kabel f\u00fcr den Eigengebrauch selbst  zu vorbereiten?": [
-        "L\u00f6tkolben",
-        "Multimeter",
-        "Spannungspr\u00fcfer"
-    ],
-    "Aus mindestens wie vielen soliden und miteinander verdrillten Kupferleitern besteht das Twisted-Pair-Kabel?": [
-        "3 Leitern",
-        "6 Leitern",
-        "12 Leitern"
-    ],
-    "Wie hei\u00dft der Standard Twisted-Pair Anschluss?": [
-        "RJ10",
-        "USB-C",
-        "HDMI"
-    ],
-    "\u00dcber wie viele Anschl\u00fcsse verf\u00fcgt der RJ-45-Stecker?": [
-        "4 Anschl\u00fcsse",
-        "6 Anschl\u00fcsse",
-        "10 Anschl\u00fcsse"
-    ],
-    "Welches Kabel verwendet 1000BASE-T Ethernet?": [
-        "Koaxialkabel",
-        "Fiber-Optic-Kabel",
-        "Twisted-Pair-Kabel der Kategorie 5"
-    ],
-    "Aus welchem Grund werden in der Netzwerktechnik auch Lichtwellenleiter eingesetzt?": [
-        "Geringere Bandbreite als bei Kupferkabeln",
-        "Niedrigere Sicherheit und Datenschutz",
-        "H\u00f6here Kosten und schwerere Handhabung"
-    ],
-    "Auf beiden Seiten eines Lichtwellenleiters befindet sich eine Sende- und Empfangseinheit, die die elektrischen Signale in Lichtimpulse umsetzt und umgekehrt. Die Erzeugung der Lichtimpulse im Sender geschieht entweder mittels einer _______oder einer ________. Im Empf\u00e4nger befinden sich  _______, die die Lichtimpulse wieder aufnehmen. Bitte vervollst\u00e4ndigen Sie die S\u00e4tze.?": [
-        "Gl\u00fchbirne, Diode, Spiegel",
-        "Mikrowellenstrahlung, Diode, Solarzellen",
-        "Elektronenkanone, Gl\u00fchbirne, Schallwellen"
-    ],
-    "Zwischen welchen Faserarten wird bei den Lichtwellenleitern unterschieden?": [
-        "Schwarze Faser und wei\u00dfe Faser",
-        "Flexible Faser und starre Faser",
-        "Einzelfaser und Mehrfaser"
-    ],
-    "Mit welchem Begriff wird der Vorgang, bei dem sich Lichtwellen, die infolge der Reflexion so aufeinander treffen, dass bei einem Signal die Spitze nach oben zeigt, die des anderen nach unten zeigt und sich deshalb ausl\u00f6schen, bezeichnet?": [
-        "Reflexion",
-        "Streuung",
-        "Spaltung"
-    ],
-    "Wie hei\u00dft ein Lichtstrahl, der mit einem bestimmten Einfallswinkel via Reflexion \u00fcbertragen wird?": [
-        "Brechstrahl",
-        "Transversalstrahl",
-        "Abweichender Strahl"
-    ],
-    "Mit welchem Begriff wird die Fertigung einer Verbindung zwischen einem Lichtwellenleiter und einem Verbindungselement bezeichnet?": [
-        "Versiegelung",
-        "\u00dcberbr\u00fcckung",
-        "Verdichtung"
-    ],
-    "Neben Kabelverbindungen werden unter bestimmten Umst\u00e4nden auch kabellose Verbindungsarten eingesetzt. Welche Techniken stehen daf\u00fcr zur Verf\u00fcgung?": [
-        "Infrarot\u00fcbertragung",
-        "Ultraschall\u00fcbertragung",
-        "Magnetfeld\u00fcbertragung"
-    ],
-    "Wie bezeichnet man die Daten\u00fcbertragung \u00fcber die Leitungen der Energieversorgungsunternehmen?": [
-        "WLAN (Wireless LAN)",
-        "Bluetooth",
-        "Satelliten\u00fcbertragung"
-    ],
-    "In welche drei Abschnitte wird ein strukturiertes Netzwerk geteilt?": [
-        "Prim\u00e4rnetz, Sekund\u00e4rnetz, Terti\u00e4rnetz",
-        "Eingangsnetz, Zwischennetz, Ausgangsnetz",
-        "Hauptnetz, Unterst\u00c3\u00bctzungsnetz, Nebennetz"
-    ],
-    "Wie lang maximal sind permanent Link und Channel Link?": [
-        "Permanent: 10 Meter, Channel: 20 Meter",
-        "Permanent: 20 Meter, Channel: 40 Meter",
-        "Permanent: 40 Meter, Channel: 80 Meter"
-    ],
-    "Welche Informationen liefern NEXT und FEXT?": [
-        "Signalst\u00e4rke und D\u00e4mpfung",
-        "Betriebsspannung und Stromst\u00e4rke",
-        "\u00dcbertragungsrichtung und Protokoll"
-    ],
-    "Warum verdrillt man die Leitungen bei dem Twisted Pair-Kabel?": [
-        "F\u00fcr eine bessere Farbidentifikation",
-        "Um die Flexibilit\u00e4t des Kabels zu erh\u00f6hen",
-        "Zur Gewichtsreduzierung"
-    ],
-    "Welche Schichten unterscheidet TCP/IP-Referenzmodell?": [
-        "Anwendungs-, Transport-, Netzwerk-, Sicherungs- und Bit\u00fcbertragungsschicht",
-        "\u00dcbertragungs-, Empfangs-, Netzwerk-, Datensicherungs- und Bit\u00fcbertragungsschicht",
-        "Anwendungs-, \u00dcbertragungs-, Netzwerk-, Datensicherungs- und Bit\u00fcbertragungsschicht"
-    ],
-    "Nennen Sie die IP-Adress-Klassen und die ersten Bitbelegungen der Klassen?": [
-        "Alpha, Beta, Gamma - 1000, 1100, 1110",
-        "A, B, C - 1000, 0100, 0010",
-        "I, II, III - 1100, 1000, 0100"
-    ],
-    "Nennen Sie Netz- und Hostanteile in Bytes f\u00fcr diese Klassen?": [
-        "Netzteil: 4 Bytes, Hostteil: 4 Bytes",
-        "Netzteil: 1 Byte, Hostteil: 3 Bytes",
-        "Netzteil: 3 Bytes, Hostteil: 1 Byte"
-    ],
-    "Berechnen Sie genau Anzahl der Adressen(Hosts) der A-Klasse?": [
-        "256\u00d7256 sind 65.536 Adressen",
-        "2 hoch 8 sind 256 Adressen",
-        "2 hoch 16 sind 65536 Adressen"
-    ],
-    "Wof\u00fcr sind die Adressen der D-Klasse gedacht?": [
-        "F\u00fcr private Netzwerke und lokale Kommunikation",
-        "F\u00fcr Broadcast-Adressen und Multicast-Gruppen",
-        "F\u00fcr statische IP-Adressen und Server-Verbindungen"
-    ],
-    "Wer verwaltet die IPv4-Adressen?": [
-        "Internationale Telekommunikationsunion (ITU)",
-        "Internet Corporation for Assigned Names and Numbers (ICANN)",
-        "World Wide Web Consortium (W3C)"
-    ],
-    "Welche Adressen der einzelnen Klassen sind f\u00fcr private Adressen freigegeben?": [
-        "Klasse A: 11.0.0.0 bis 11.255.255.255",
-        "Klasse B: 172.32.0.0 bis 172.63.255.255",
-        "Klasse C: 192.169.0.0 bis 192.169.255.255"
-    ],
-    "Welche Bedeutung hat die Adresse 0.0.0.0?": [
-        "Loopback-Adresse f\u00fcr lokale Tests",
-        "Broadcast-Adresse im lokalen Netzwerk",
-        "Reservierte IP-Adresse f\u00fcr zuk\u00fcnftige Nutzung"
-    ],
-    "Welche Bedeutung hat die Adresse 127.0.0.1?": [
-        "Broadcast-Adresse im lokalen Netzwerk",
-        "Standard-Gateway-Adresse",
-        "Reservierte IP-Adresse f\u00fcr zuk\u00fcnftige Nutzung"
-    ],
-    "Welche Bedeutung hat die Adresse 255.255.255.255?": [
-        "Multicast-Adresse f\u00fcr spezielle Netzwerkdienste",
-        "Reservierte Broadcast-Adresse f\u00fcr IPv6",
-        "Loopback-Adresse f\u00fcr lokale Tests"
-    ],
-    "Welche Bedeutung hat die Adresse 169.254.0.0 (169.254.x.x)?": [
-        "Privates IP-Adresssegment f\u00fcr lokale Netzwerke",
-        "Reserviert f\u00fcr automatische Private IP-Adresszuweisung (APIPA)",
-        "Loopback-Adresse f\u00fcr lokale Tests"
-    ],
-    "Erkl\u00e4ren Sie folgende Begriffe: Unicast, Broadcast,  Multicast, Anycast?": [
-        "Unicast: Eine \u00fcbertragungsmethode, bei der Daten an alle Ger\u00c3\u00a4te im Netzwerk gesendet werden. Broadcast: Eine \u00fcbertragungsmethode, bei der Daten nur an einen bestimmten Empf\u00c3\u00a4nger gesendet werden. Multicast: Eine \u00fcbertragungsmethode, bei der Daten nur an einen bestimmten Empf\u00c3\u00a4nger gesendet werden. Anycast: Eine \u00fcbertragungsmethode, bei der Daten an alle Ger\u00c3\u00a4te im Netzwerk gesendet werden, au\u00c3\u0178er an den Sender selbst.",
-        "Unicast: Eine \u00fcbertragungsmethode, bei der Daten nur an einen bestimmten Server gesendet werden. Broadcast: Eine \u00fcbertragungsmethode, bei der Daten an einen bestimmten Server gesendet werden. Multicast: Eine \u00fcbertragungsmethode, bei der Daten an alle Ger\u00c3\u00a4te im Netzwerk gesendet werden, au\u00c3\u0178er an den Sender selbst. Anycast: Eine \u00fcbertragungsmethode, bei der Daten an eine Gruppe von Ger\u00c3\u00a4ten gesendet werden, die denselben Dienst nutzen.",
-        "Unicast: Eine \u00fcbertragungsmethode, bei der Daten an eine Gruppe von Ger\u00c3\u00a4ten gesendet werden. Broadcast: Eine \u00fcbertragungsmethode, bei der Daten an alle Ger\u00c3\u00a4te im Netzwerk gesendet werden, au\u00c3\u0178er an den Sender selbst. Multicast: Eine \u00fcbertragungsmethode, bei der Daten an eine Gruppe von Ger\u00c3\u00a4ten gesendet werden, die denselben Dienst nutzen. Anycast: Eine \u00fcbertragungsmethode, bei der dieselbe IP-Adresse mehreren Servern zugewiesen wird, die denselben Dienst bereitstellen."
-    ],
-    "Die sogenannte TCP/IP Protokollsuite umfasst Regeln f\u00fcr den Kommunikationsaufbau und ___________________ innerhalb eines Netzes, sowie RegeIn f\u00fcr die __________________ in unterschiedlichen Netzen, die miteinander verbunden sind?": [
-        "Datenverarbeitung, Fehlererkennung",
-        "Datenspeicherung, Lastverteilung",
-        "Verbindungsaufbau, Netzwerksicherheit"
-    ],
-    "Nennen Sie bitte Programme, die auf die TCP/IP Protokollsuite aufsetzen?": [
-        "Microsoft Word",
-        "Adobe Photoshop",
-        "VLC Media Player"
-    ],
-    "Welches Schichtenmodell liefert TCP/IP und kann dem OSI-Referenzmodell gegen\u00fcbergestellt werden?": [
-        "Das Ethernet-Schichtenmodell",
-        "Das IEEE 802.11-Schichtenmodell",
-        "Das Bluetooth-Schichtenmodell"
-    ],
-    "Das Transmission Control Protocol (TCP) ist ein Protokoll f\u00fcr eine gesicherte Verbindung zwischen zwei Systemen. Woraus besteht diese Sicherung beim Datenversand?": [
-        "Datenverschl\u00fcsselung und Benutzerauthentifizierung",
-        "IP-Adressverifizierung und Datenkompression",
-        "Netzwerk\u00fcberwachung und Paketfilterung"
-    ],
-    "Das User Datagram Protocol ist im Gegensatz zu TCP ein ungesicherter verbindungsloser Dienst. Welchen Nachteil weist dieses Protokoll auf?": [
-        "Es kann nur in lokalen Netzwerken verwendet werden.",
-        "Es unterst\u00fctzt keine Datenkompression.",
-        "Es kann keine verschl\u00fcsselten Verbindungen aufbauen."
-    ],
-    "Was ist die Hauptaufgabe des Internet-Protocols?": [
-        "Datenverschl\u00fcsselung f\u00fcr sichere \u00dcbertragungen",
-        "Verbindungsaufbau und -abbau zwischen zwei Endsystemen",
-        "Datenkompression zur Reduktion der \u00dcbertragungsgr\u00f6\u00dfe"
-    ],
-    "Wozu dient das Internet Control Message Protocol?": [
-        "Zur Verschl\u00fcsselung von Datenpaketen w\u00e4hrend der \u00dcbertragung",
-        "Zum Aufbau und Abbau von Netzwerkverbindungen",
-        "Zur Speicherung von Webseitendaten auf lokalen Servern"
-    ],
-    "Welches Protokoll \u00fcbersetzt IP-Adressen in MAC-Adressen (auch als Umsetzung von Software-Adressen in Hardware-Adressen bezeichnet)?": [
-        "DNS (Domain Name System)",
-        "DHCP (Dynamic Host Configuration Protocol)",
-        "SMTP (Simple Mail Transfer Protocol)"
-    ],
-    "Normalerweise wird die IP-Adresse in der \"conial form\u00ab angegeben. Mit wie vielen Bytes wird diese, jeweils einzeln in dezimaler Schreibweise durch Punkte getrennt, angegeben?": [
-        "6 Bytes",
-        "8 Bytes",
-        "2 Bytes"
-    ],
-    "Bitte geben Sie den Well-Known-Port an, unter dem FTP zu erreichen ist?": [
-        "Port 22",
-        "Port 80",
-        "Port 143"
-    ],
-    "Aus welchen zwei Teilen besteht eine IP-Adresse (z.B. bei Subnetting)?": [
-        "Prefix und Suffix",
-        "Quartett und Oktett",
-        "Host und Gateway"
-    ],
-    "Das Network bezeichnet eine logische oder organisatorische Einheit von Rechnern, wie etwa eine Firma oder eine Organisation. Der Host-Anteil bezeichnet dann die einzelnen Rechner in dieser Einheit. Trifft diese Aussage zu?": [
-        "Nein weil Das Network bezeichnet das physische Layout eines Netzwerks, nicht die organisatorische Einheit.",
-        "Nein weil Der Host-Anteil bezeichnet die Router und Switches in einem Netzwerk.",
-        "Nein Das Network bezeichnet das gesamte Internet, nicht nur eine einzelne Organisation."
-    ],
-    "Wie wird der Vorgang bezeichnet, bei dem mit Hilfe der Subnet-Mask festgelegt wird, was als netzinterner Network-Anteil und was als netzinterner Host-Anteil gelten soll?": [
-        "Subnautica",
-        "Host-Zuordnung",
-        "Netzwerk-Identifizierung"
-    ],
-    "Statt IP-Adressen mit Zahlenkombinationen anzugeben, werden h\u00e4ufig Namen verwendet. Wie hei\u00dft es?": [
-        "Domain Name Service (DNS)",
-        "Domain Verification Protocol (DVP)",
-        "Name Address Resolution Protocol (NARP)"
-    ],
-    "Die Klasse der IPv4-Adresse erkennt man im ersten (linken Byte). Ist die Aussage richtig?": [
-        "Nein, die Klasse wird im dritten Byte erkannt.",
-        "Nein, die Klasse wird durch die letzten beiden Bytes bestimmt.",
-        "Ja, die Klasse wird im zweiten Byte erkannt."
-    ],
-    "Was sind die Anzahl der Hosts der Klasse B ?": [
-        "128 Hosts",
-        "16.777.214 Hosts",
-        "256 Hosts"
-    ],
-    "Was verstehen Sie unter Klassenlosen Netzen (CIDR) in Bezug auf Maske?": [
-        "CIDR verwendet immer eine /8-Subnetzmaske.",
-        "CIDR verwendet eine feste 32-Bit-Subnetzmaske.",
-        "CIDR verwendet keine Subnetzmaske."
-    ],
-    "Welche Organisation vergibt die IPv4-Adressen in Deutschland?": [
-        "Deutsche Telekom",
-        "Bundesnetzagentur",
-        "Deutsches Institut f\u00fcr Normung (DIN)"
-    ],
-    "Welche Aufgabe hat DHCP-Dienst?": [
-        "Verschl\u00fcsselung der Netzwerkdaten\u00fcbertragung",
-        "\u00dcberwachung der Netzwerkbandbreite",
-        "\u00dcbermittlung von IP-Adressen und Netzwerkkonfigurationen an Clients"
-    ],
-    "Welche Komponente des Netzes organisiert Paketaustausch zwischen unterschiedlichen Netzen?": [
-        "Switch",
-        "Modem",
-        "USB Stick"
-    ],
-    "Was sind die Algorithmen des dynamischen Routings?": [
-        "Static Routing",
-        "MAC-Adressierung",
-        "TCP/IP"
-    ],
-    "Welche Aufgabe hat die Routing-Tabelle?": [
-        "Verschl\u00fcsselung der Netzwerkkommunikation",
-        "Verwaltung der physischen Verbindung zwischen Netzwerkger\u00e4ten",
-        "Zuordnung von MAC-Adressen zu IP-Adressen"
-    ],
-    "Was ist CSMA/CD?": [
-        "Ein Verschl\u00fcsselungsalgorithmus f\u00fcr Netzwerkkommunikation",
-        "Ein Protokoll zur Adressaufl\u00f6sung in Netzwerken",
-        "Ein Verfahren zur automatischen Konfiguration von Netzwerkger\u00e4ten"
-    ],
-    "Auf welcher Schicht agiert TCP?": [
-        "Schicht 1 (Physische Schicht)",
-        "Schicht 2 (Sicherungsschicht)",
-        "Schicht 8 (Anwenderschicht)"
-    ],
-    "Was ist MTU?": [
-        "Multi-Thread Unit",
-        "Media Transfer Unit",
-        "Media Thread User"
-    ],
-    "Was unterscheidet TCP von UDP. Was sind Unterschiede?": [
-        "Beide Protokolle sind identisch und unterscheiden sich nicht.",
-        "TCP verwendet eine verbindungslose Kommunikation, w\u00e4hrend UDP eine verbindungsorientierte Kommunikation verwendet.",
-        "TCP ist schneller als UDP aufgrund der \u00dcberpr\u00fcfung der Datenintegrit\u00e4t."
-    ],
-    "Was Sie der Dachverband nationaler Standardisierungsgremien auf internationaler Ebene?": [
-        "IEEE (Institute of Electrical and Electronics Engineers)",
-        "IETF (Internet Engineering Task Force)",
-        "ITFO (International Task Force Organization)"
-    ],
-    "Welche Organisation betreut Standardgruppe 802?": [
-        "IETF (Internet Engineering Task Force)",
-        "ITU (International Telecommunication Union)",
-        "ISO (International Organization for Standardization)"
-    ],
-    "Welche Organisation ist f\u00fcr internationale Zuweisung und Registrierung von Sende- und Empfangsfrequenzen oder Internationale Regelungen f\u00fcr die Nutzung von Frequenzen zust\u00e4ndig?": [
-        "IEEE (Institute of Electrical and Electronics Engineers)",
-        "IETF (Internet Engineering Task Force)",
-        "ISO (International Organization for Standardization)"
-    ],
-    "was geh\u00f6rt zu den 802 Gruppen?": [
-        "USB (Universal Serial Bus)",
-        "HDMI (High-Definition Multimedia Interface)",
-        "SATA (Serial ATA)"
-    ],
-    "Welches Zugriffsverfahren verwendet Ethernet?": [
-        "CDMA (Code Division Multiple Access)",
-        "TDMA (Time Division Multiple Access)",
-        "FDMA (Frequency Division Multiple Access)"
-    ],
-    "Welche zwei Frame-Arten unterst\u00fctzen moderne Netzwerkkarten?": [
-        "PDU (Protocol Data Unit) und ACK (Acknowledgment)",
-        "TCP (Transmission Control Protocol) und UDP (User Datagram Protocol)",
-        "IPv4 (Internet Protocol Version 4) und IPv6 (Internet Protocol Version 6)"
-    ],
-    "vervollst\u00e4ndigen Sie die S\u00e4tze. TCP/IP-Protokoll verwendet ____________-Frame. \nNetBEUI-Protokoll verwendet _____________-Frame?": [
-        "Ethernet, Token Ring",
-        "WLAN, Bluetooth",
-        "Token Ring, Ethernet"
-    ],
-    "was sind die Funktionen der Netzwerkkarte?": [
-        "Verwaltung der Netzwerkverschl\u00fcsselung",
-        "Kontrolle der Stromversorgung des gesamten Netzwerks",
-        "\u00dcberwachung der Serverleistung"
-    ],
-    "Welche logische Topologie verwendet Token-Ring?": [
-        "Mesh-Topologie",
-        "Stern-Topologie",
-        "Bus-Topologie"
-    ],
-    "Wie schnell ist Token-Ring?": [
-        "100 Mbps",
-        "1 Gbps",
-        "10 Gbps"
-    ],
-    "Im welchen Bereich arbeitet FDDI?": [
-        "1 Gbps",
-        "10 Gbps",
-        "69 Mbps"
-    ],
-    "Welche logische Topologie verwendet FDDI?": [
-        "Bus-Topologie",
-        "Mesh-Topologie",
-        "Stern-Topologie"
-    ],
-    "Wie schnell ist FDDI?": [
-        "10 Mbps",
-        "100 Mbps",
-        "1 Gbps"
-    ],
-    "Wie gro\u00df ist max. Ringl\u00e4nge von FDDI?": [
-        "100 Meter",
-        "500 Meter",
-        "1 Kilometer"
-    ],
-    "Wie viele Stationen d\u00fcrfen am Ring angeschlossen sein?": [
-        "10 Stationen",
-        "50 Stationen",
-        "100 Stationen"
-    ],
-    "Welche Vorteile bringt mit sich CIDR-Verfahren?": [
-        "Verbesserte Sicherheit durch Verschl\u00fcsselung aller Netzwerkdaten.",
-        "Vereinfachte Verwaltung und Reduzierung der Anzahl ben\u00f6tigter IP-Adressen.",
-        "Automatische Erkennung und Behebung von Netzwerkproblemen."
-    ],
-    "Welche Notation wird als Ersatz der Maske bei CIDR verwendet?": [
-        "MAC-Adresse (Media Access Control)",
-        "EUI-64 (Extended Unique Identifier)",
-        "IP-Adresse in bin\u00e4rer Form"
-    ],
-    "Sie entscheiden sich f\u00fcr die Netzadresse 192.168.221.0 .  Sie m\u00fcssen 13 Teilnetze erstellen. Wie viele Adressen d\u00fcrfen Sie maximal pro Teilnetz vergeben?": [
-        "16 Adressen",
-        "64 Adressen",
-        "48 Adressen"
-    ],
-    "Sie entscheiden sich f\u00fcr die Netzadresse 192.168.17.0 .  Im Raum(1 Raum =1 Teilnetz) d\u00fcrfen max. 10 Rechner mit eigenem IP stehen. Wie viele Teilnetze maximal d\u00fcrfen Sie einrichten?": [
-        "8 Teilnetze",
-        "32 Teilnetze",
-        "64 Teilnetze"
-    ],
-    "Sie sollen ein internes Netz mit 80 Teilnetzen und jeweils 50 Rechner pro Teilnetz mit Adressen versehen. Welche privaten Adressen kommen in Frage?": [
-        "10.0.0.0/8",
-        "169.254.0.0/16",
-        "192.168.0.0/16"
-    ],
-    "Wie k\u00f6nnen Sie die IP-Adresse Ihres Rechners unter Windows ermitteln?": [
-        "\u00dcber die Systemsteuerung > Programme und Features",
-        "Durch Dr\u00fccken von Strg + Alt + Entf",
-        "Im Task-Manager unter dem Tab \"Leistung\""
-    ],
-    "Wie k\u00f6nnen Sie die IP-Adresse Ihres Rechners unter Linux ermitteln?": [
-        "Durch \u00d6ffnen des Dateimanagers und Navigieren zu /etc/network",
-        "Im Texteditor unter /usr/bin/network_config",
-        "\u00dcber die Systemsteuerung unter \"Netzwerkeinstellungen\""
-    ],
-    "Mit welchem Befehl werden MAC- und IP-Adresse gemeinsam gezeigt?": [
-        "netstat -ia",
-        "ping -ip",
-        "tracert /info"
-    ],
-    "Was passiert bei dem Befehl getmac/v ein?": [
-        "Es werden alle Netzwerkverbindungen im Detail angezeigt, einschlie\u00dflich der IP-Adressen.",
-        "Es wird eine Liste aller verf\u00fcgbaren Netzwerkadapter angezeigt.",
-        "Es werden die Netzwerkeinstellungen auf die Werkseinstellungen zur\u00fcckgesetzt."
-    ],
-    "Vergleichen Sie bez\u00fcglich von MAC- und IP-Adressen die Ausgabe von ipconfig /all und  arp \u2013a. Was f\u00e4llt Ihnen auf?": [
-        "Beide Befehle zeigen nur die IP-Adressen ohne MAC-Adressen an.",
-        "ipconfig /all zeigt die Routing-Tabellen, w\u00e4hrend arp -a nur die DNS-Eintr\u00e4ge anzeigt.",
-        "ipconfig /all zeigt die IPv6-Adressen, w\u00e4hrend arp -a die MAC-Adressen von drahtlosen Netzwerken anzeigt."
-    ],
-    "Welche Programme benutzen ICMP?": [
-        "FTP und Telnet",
-        "HTTP und HTTPS",
-        "SSH und SCP"
-    ],
-    "Wie lang ist IPv6-Adresse?": [
-        "32 Bit",
-        "64 Bit",
-        "16 Bit"
-    ],
-    "Wie ist IPv6 Adresse Aufgebaut?": [
-        "In vier Hexadezimal-Bl\u00f6cken, getrennt durch Doppelpunkte (z.B. 1A2B:3C4D:5E6F:7G8H)",
-        "In zwei Dezimal-Bl\u00f6cken, getrennt durch Punkte (z.B. 123.456.789.012)",
-        "Als Kombination aus Hexadezimal- und Dezimal-Bl\u00f6cken (z.B. A1B2:3456:7890"
-    ],
-    "Wie hei\u00dft ping-Befehl bei IPv6?": [
-        "ping6",
-        "ip6ping",
-        "ping -ipv6"
-    ],
-    "Aus welchem Bereich stammen bei IPv6 die selbstzugewiesenen Adressen?": [
-        "Multicast-Bereich",
-        "Global Unicast-Bereich",
-        "Link Unicast-Bereich"
-    ],
-    "Aus welchem Bereich stammen bei IPv6 die Local Unicast Adressen?": [
-        "Global Unicast-Bereich",
-        "Multicast-Bereich",
-        "Global Unique Local-Berreich"
-    ],
-    "Welche Bedeutung hat die IPv6-Adresse ::1 ?": [
-        "Broadcast-Adresse im lokalen Netzwerk",
-        "Reservierte Adresse f\u00fcr zuk\u00fcnftige Nutzung",
-        "Loopback-Adresse f\u00fcr alle Netzwerkschnittstellen"
-    ],
-    "Wie wird Tunelling-Adresse gekennzeichnet?": [
-        "Durch eine Adresse aus dem Bereich 192.168.x.x",
-        "Durch eine Adresse aus dem Bereich 10.x.x.x",
-        "Durch eine Adresse aus dem Bereich 172.16.x.x bis 172.31.x.x"
-    ],
-    "Wie wird Multicast-Adresse gekennzeichnet?": [
-        "Durch eine Adresse aus dem Bereich 192.168.x.x",
-        "Durch eine Adresse aus dem Bereich 10.x.x.x",
-        "Durch eine Adresse aus dem Bereich 172.16.x.x bis 172.31.x.x"
-    ],
-    "Bitte nennen Sie die vier Hauptgruppen von Twisted-Pair-Kabeln (TP-Kabeln)?": [
-        "Cat 1, Cat 2, Cat 3, Cat 4",
-        "UTP, FTP, STP, S/FTP",
-        "Cat 5, Cat 6, Cat 6a, Cat 7"
+    "Was ist ein Algorithmus?": [
+        "Eine Art von Computer",
+        "Ein Programm, das Daten speichert",
+        "Ein Dokumentationsverfahren"
+    ],
+    "Was beschreibt das EVA-Prinzip?": [
+        "Ein System zur Speicherung von Daten",
+        "Ein Software-Entwicklungsmodell",
+        "Ein Verfahren zur Erstellung von Algorithmen"
+    ],
+    "Warum kann Standard-Software schnell an ihre Grenzen sto\u00dfen?": [
+        "Weil sie nicht auf Computern installiert werden kann",
+        "Weil sie keine Daten speichert",
+        "Weil sie keine Benutzerschnittstelle hat"
+    ],
+    "Was versteht man unter Modularit\u00e4t in der Softwareentwicklung?": [
+        "Das Vermeiden von Softwarefehlern",
+        "Das Entwickeln von Software ohne Dokumentation",
+        "Das Testen von Software ohne Benutzerbeteiligung"
+    ],
+    "Welche Vorteile bietet die Modularisierung von Software?": [
+        "Erlaubt keine Wiederverwendung von Code",
+        "Erh\u00f6ht die Komplexit\u00e4t der Software",
+        "Verhindert die Zusammenarbeit in Teams"
+    ],
+    "Was ist das Abstraktionsprinzip?": [
+        "Ein Verfahren zur direkten Eingabe von Daten",
+        "Ein System zur Speicherung von Programmcodes",
+        "Ein Verfahren zur Ausgabe von Daten"
+    ],
+    "Welche Methode wird in der Regel bei der Entwicklung kleiner Programme verwendet?": [
+        "Bottom-up-Methode",
+        "Middle-out-Methode",
+        "Up-down-Methode"
+    ],
+    "Was ist das Ziel der Analysephase im Software-Lebenszyklus?": [
+        "Erstellung des Programmcodes",
+        "Testen der fertigen Software",
+        "Wartung der Software"
+    ],
+    "Was beinhaltet die Implementierungsphase?": [
+        "Das Festlegen der Anforderungen",
+        "Das Design der Benutzerschnittstelle",
+        "Die Durchf\u00fchrung von Wirtschaftlichkeitsbetrachtungen"
+    ],
+    "Warum ist die Wiederverwendbarkeit von Modulen wichtig?": [
+        "Sie reduziert die Komplexit\u00e4t der Software",
+        "Sie verhindert die Modularisierung der Software",
+        "Sie erh\u00f6ht die Fehleranf\u00e4lligkeit der Software"
+    ],
+    "Welche Sprache wird oft als die \"Muttersprache\" der Programmierung bezeichnet?": [
+        "Python",
+        "Assembler",
+        "COBOL"
+    ],
+    "Welche der folgenden Aussagen beschreibt am besten den Begriff \"Debugging\"?": [
+        "Das Hinzuf\u00fcgen neuer Funktionen zu einer Software",
+        "Das Testen einer Software auf Benutzerfreundlichkeit",
+        "Das Kompilieren eines Programms in Maschinensprache"
+    ],
+    "Was versteht man unter \"Quellcode\"?": [
+        "Die grafische Benutzeroberfl\u00e4che einer Software",
+        "Der ausf\u00fchrbare Teil einer Software",
+        "Die Dokumentation einer Software"
+    ],
+    "Welche der folgenden Aussagen beschreibt das \"Wasserfallmodell\"?": [
+        "Ein Modell, bei dem die Software in kurzen Iterationen entwickelt wird",
+        "Ein Modell, das ausschlie\u00dflich f\u00fcr kleine Projekte geeignet ist",
+        "Ein Modell, das keine Tests beinhaltet"
+    ],
+    "Welche Programmiersprache wird h\u00e4ufig f\u00fcr die Webentwicklung verwendet?": [
+        "COBOL",
+        "Fortran",
+        "Pascal"
+    ],
+    "Was ist ein Compiler?": [
+        "Ein Programm, das Daten speichert",
+        "Ein Programm, das Benutzeroberfl\u00e4chen erstellt",
+        "Ein Programm, das den Arbeitsspeicher verwaltet"
+    ],
+    "Was beschreibt das Prinzip der \"Datenkapselung\"?": [
+        "Das Vermeiden von Redundanzen im Code",
+        "Die Strukturierung von Daten in einer Datenbank",
+        "Die gleichzeitige Ausf\u00fchrung mehrerer Programmteile"
+    ],
+    "Was bedeutet der Begriff \"Iteration\" in der Programmierung?": [
+        "Das einmalige Durchlaufen eines Programms",
+        "Das Erstellen von Programmdokumentationen",
+        "Das Testen einer Software auf Fehler"
+    ],
+    "Welche der folgenden Kontrollstrukturen wird verwendet, um Entscheidungen zu treffen?": [
+        "Schleife",
+        "Funktion",
+        "Variable"
+    ],
+    "Welche Methode wird verwendet, um die Wiederverwendbarkeit von Code zu erh\u00f6hen?": [
+        "Hardcoding",
+        "Manuelles Schreiben von Code",
+        "Vermeidung von Kommentaren im Code"
     ]
 }

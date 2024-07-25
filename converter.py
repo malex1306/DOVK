@@ -62,4 +62,4 @@ def update_json(question, folder_path='', file_name='progress.json'):
     return existing_data.get(question, 0) >= 3
 
 # Uncomment to generate new data.json
-# make_json(write_qa_dictionary())
+make_json(write_qa_dictionary())
