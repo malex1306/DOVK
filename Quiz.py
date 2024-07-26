@@ -11,7 +11,6 @@ from PyQt5.QtGui import QPixmap
 
 # Basisverzeichnis ermitteln
 base_path = os.path.dirname(os.path.abspath(__file__))
-image_path = os.path.join(base_path, "Adam.jpg")
 
 # Load QUESTIONS from data.json
 try:
@@ -301,7 +300,8 @@ class QuizApp(QWidget):
             
             msg = QMessageBox(self)
             msg.setWindowTitle("Richtig!")
-            msg.setIconPixmap(QPixmap(r"Adam.jpg"))
+            image_path = os.path.join(base_path, "Adam.jpg")
+            msg.setIconPixmap(QPixmap(image_path))
 
             msg.exec_()
         else:
