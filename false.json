@@ -203,5 +203,10 @@
         "/",
         "*",
         "$"
+    ],
+    "Bild12 Um zugelassen zu werden muss das Gewicht zwischen 235 und 265 Pfund liegen.Was fehlt in diesem Code in der L\u00fccke?": [
+        "> , >",
+        "> , <",
+        "< , >"
     ]
 }
