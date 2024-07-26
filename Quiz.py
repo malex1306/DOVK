@@ -11,6 +11,7 @@ from PyQt5.QtGui import QPixmap
 
 # Basisverzeichnis ermitteln
 base_path = os.path.dirname(os.path.abspath(__file__))
+image_path = os.path.join(base_path, "Adam.jpg")
 
 # Load QUESTIONS from data.json
 try:
@@ -53,7 +54,7 @@ class QuizApp(QWidget):
         self.menu_bar.addMenu(self.score_menu)
 
         self.status_bar = QStatusBar(self)
-        self.status_bar.showMessage("v.0.1")
+        self.status_bar.showMessage("v.0.2")
 
         self.setWindowIcon(QIcon(os.path.join(base_path, 'book.ico')))
 
@@ -293,7 +294,7 @@ class QuizApp(QWidget):
             
             msg = QMessageBox(self)
             msg.setWindowTitle("Richtig!")
-            msg.setIconPixmap(QPixmap("data\images\Adam.jpg"))
+            msg.setIconPixmap(QPixmap(r"Adam.jpg"))
 
             msg.exec_()
         else:
@@ -341,7 +342,7 @@ class QuizApp(QWidget):
             if os.path.isfile(image_path):
                 os.startfile(image_path)
         else:
-            os.startfile("data\images\donttouchme.jpg")
+            os.startfile("donttouchme.jpg")
 
     def extract_image_reference(self, question):
         # Extract image reference like Bild1, Bild2, etc. from the question
