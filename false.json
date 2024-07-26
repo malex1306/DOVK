@@ -148,5 +148,65 @@
         "while",
         "def",
         "add:"
+    ],
+    "Bild11 Was fehlt in diesem Code in der L\u00fccke?": [
+        "$",
+        "\u20ac",
+        "format"
+    ],
+    "Bild12 Was fehlt in diesem Code in der L\u00fccke?": [
+        "> , >",
+        "> , <",
+        "< , >"
+    ],
+    "Bild13 Was fehlt in diesem Code in der L\u00fccke?": [
+        "if",
+        "while",
+        "else"
+    ],
+    "Bild14 Was fehlt in diesem Code in der L\u00fccke?": [
+        "system",
+        "os",
+        "random"
+    ],
+    "Bild15 Was fehlt in diesem Code in der L\u00fccke?": [
+        "f",
+        "DM",
+        "input"
+    ],
+    "Bild16 Was fehlt in diesem Code in der L\u00fccke?": [
+        "-=",
+        "*=",
+        "/="
+    ],
+    "Bild17 Was fehlt in diesem Code in der L\u00fccke?": [
+        "j",
+        "zahl",
+        "num"
+    ],
+    "Bild18 Was fehlt in diesem Code in der L\u00fccke?": [
+        "string",
+        "width",
+        "height"
+    ],
+    "Bild19 Was fehlt in diesem Code in der L\u00fccke?": [
+        "j",
+        "range",
+        "444"
+    ],
+    "Bild20 Was fehlt in diesem Code in der L\u00fccke?": [
+        "False",
+        "Right",
+        "Left"
+    ],
+    "Bild21 Was fehlt in diesem Code in der L\u00fccke?": [
+        "sys.",
+        "os.",
+        "random."
+    ],
+    "Bild22 Was fehlt in diesem Code in der L\u00fccke?": [
+        "/",
+        "*",
+        "$"
     ]
 }
