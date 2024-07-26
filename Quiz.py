@@ -3,7 +3,7 @@ import random
 import json
 import os
 from PyQt5.QtCore import Qt
-from PyQt5.QtWidgets import (QApplication, QWidget, QVBoxLayout, QHBoxLayout, QLabel, QLineEdit,QPushButton, QRadioButton, QButtonGroup, QMessageBox, QMenuBar, QMenu, QAction, QStatusBar)
+from PyQt5.QtWidgets import (QApplication, QWidget, QVBoxLayout, QHBoxLayout, QLabel, QLineEdit, QPushButton, QRadioButton, QButtonGroup, QMessageBox, QMenuBar, QMenu, QAction, QStatusBar)
 from PyQt5.QtGui import QIcon
 from converter import update_json
 import re
@@ -247,9 +247,16 @@ class QuizApp(QWidget):
 
             self.question_label.setText(f"Frage {self.current_question + 1}: \n\n{question}")
 
+            self.reset_radio_buttons()
+
             for rb, option in zip(self.radio_buttons, options):
                 rb.setText(option)
-                rb.setChecked(False)
+                
+    def reset_radio_buttons(self):
+        for rb in self.radio_buttons:
+            rb.setAutoExclusive(False)
+            rb.setChecked(False)
+            rb.setAutoExclusive(True)             
 
     def keyPressEvent(self, event):
         if event.key() == Qt.Key_Return or event.key() == Qt.Key_Enter:
